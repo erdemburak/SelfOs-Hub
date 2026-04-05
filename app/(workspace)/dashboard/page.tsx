@@ -1,5 +1,5 @@
-import { PagePlaceholder } from "@/components/common/page-placeholder";
+import { DashboardPageView } from "@/features/dashboard";
 
 export default function DashboardPage() {
-  return <PagePlaceholder title="Dashboard" description="Dashboard module skeleton is ready." />;
+  return <DashboardPageView />;
 }

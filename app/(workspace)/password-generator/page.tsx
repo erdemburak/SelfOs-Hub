@@ -1,10 +1,5 @@
-import { PagePlaceholder } from "@/components/common/page-placeholder";
+import { PasswordGeneratorPageView } from "@/features/password-generator";
 
 export default function PasswordGeneratorPage() {
-  return (
-    <PagePlaceholder
-      title="Password Generator"
-      description="Password generator module skeleton is ready."
-    />
-  );
+  return <PasswordGeneratorPageView />;
 }

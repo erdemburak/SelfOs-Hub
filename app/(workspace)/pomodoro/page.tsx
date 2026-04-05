@@ -1,5 +1,5 @@
-import { PagePlaceholder } from "@/components/common/page-placeholder";
+import { PomodoroPageView } from "@/features/pomodoro";
 
 export default function PomodoroPage() {
-  return <PagePlaceholder title="Pomodoro" description="Pomodoro module skeleton is ready." />;
+  return <PomodoroPageView />;
 }

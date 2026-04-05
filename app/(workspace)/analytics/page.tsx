@@ -1,5 +1,5 @@
-import { PagePlaceholder } from "@/components/common/page-placeholder";
+import { AnalyticsPageView } from "@/features/analytics";
 
 export default function AnalyticsPage() {
-  return <PagePlaceholder title="Analytics" description="Analytics module skeleton is ready." />;
+  return <AnalyticsPageView />;
 }

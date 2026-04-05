@@ -1,8 +1,4 @@
-export type NavItem = {
-  href: string;
-  label: string;
-  description: string;
-};
+import type { NavItem } from "@/types";
 
 export const NAV_ITEMS: NavItem[] = [
   { href: "/dashboard", label: "Dashboard", description: "Overview" },
