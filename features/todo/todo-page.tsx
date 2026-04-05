@@ -1,5 +1,5 @@
-import { PagePlaceholder } from "@/components/ui/page-placeholder";
+import { TodoPageClient } from "./components/todo-page-client";
 
 export function TodoPageView() {
-  return <PagePlaceholder title="ToDo Board" description="ToDo board module skeleton is ready." />;
+  return <TodoPageClient />;
 }
