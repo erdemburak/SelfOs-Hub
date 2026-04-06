@@ -4,8 +4,11 @@ import { useCallback, useEffect, useState } from "react";
 
 import {
   createEmptyTodoBoardState,
+  createEmptyTodoOutcomeMap,
   loadTodoBoardState,
+  loadTodoOutcomeMap,
   saveTodoBoardState,
+  saveTodoOutcomeMap,
 } from "../lib";
 import {
   DEFAULT_TODO_CATEGORY,
@@ -18,12 +21,27 @@ import {
   type TodoNoteDraft,
   type TodoCardUpdate,
   type TodoColumnId,
+  type TodoOutcome,
+  type TodoOutcomeMap,
   type TodoPriority,
 } from "../types";
 
 type TodoCardLocation = {
   columnId: TodoColumnId;
   index: number;
+};
+
+type TodoState = {
+  board: TodoBoardState;
+  outcomes: TodoOutcomeMap;
+};
+
+type TodoOutcomeEventType = "completed" | "failed";
+
+type TodoOutcomeEvent = {
+  cardId: string;
+  type: TodoOutcomeEventType;
+  at: number;
 };
 
 function createTodoCardId(): string {
@@ -43,9 +61,9 @@ const DONE_RETENTION_MS = 24 * 60 * 60 * 1000;
 const NOTES_COLUMN_ID: TodoColumnId = "notes";
 const NOTE_DUE_DATE_FALLBACK = "9999-12-31";
 
-function sortCardsByPriority(cards: TodoCard[]): TodoCard[] {
+function sortCardsByPriority(cards: TodoCard[], columnId: TodoColumnId): TodoCard[] {
   return [...cards].sort((firstCard, secondCard) => {
-    if (firstCard.completedAt || secondCard.completedAt) {
+    if (columnId === "done" && (firstCard.completedAt || secondCard.completedAt)) {
       return (secondCard.completedAt ?? 0) - (firstCard.completedAt ?? 0);
     }
 
@@ -65,7 +83,7 @@ function normalizeBoardState(state: Partial<TodoBoardState>): TodoBoardState {
   return TODO_COLUMN_IDS.reduce(
     (nextState, columnId) => {
       const cards = state[columnId];
-      nextState[columnId] = Array.isArray(cards) ? sortCardsByPriority(cards) : [];
+      nextState[columnId] = Array.isArray(cards) ? sortCardsByPriority(cards, columnId) : [];
       return nextState;
     },
     baseState
@@ -89,21 +107,64 @@ function isCompletedCardExpired(card: TodoCard, now: number): boolean {
   return now - card.completedAt >= DONE_RETENTION_MS;
 }
 
-function pruneCompletedAndExpiredCards(state: TodoBoardState, now: number): TodoBoardState {
-  const normalizedState = normalizeBoardState(state);
+function createFailedOutcomeEvent(card: TodoCard): TodoOutcomeEvent | null {
+  if (card.isNote) {
+    return null;
+  }
 
-  return TODO_COLUMN_IDS.reduce(
+  if (typeof card.completedAt === "number" || typeof card.failedAt === "number") {
+    return null;
+  }
+
+  const failedAt = createDueDateEndTimestamp(card.dueDate);
+
+  if (!Number.isFinite(failedAt) || failedAt === Number.MAX_SAFE_INTEGER) {
+    return null;
+  }
+
+  return {
+    cardId: card.id,
+    type: "failed",
+    at: failedAt,
+  };
+}
+
+function pruneCompletedAndExpiredCards(
+  state: TodoBoardState,
+  now: number
+): { board: TodoBoardState; outcomeEvents: TodoOutcomeEvent[] } {
+  const normalizedState = normalizeBoardState(state);
+  const outcomeEvents: TodoOutcomeEvent[] = [];
+
+  const board = TODO_COLUMN_IDS.reduce(
     (nextState, columnId) => {
       if (columnId === "done") {
         nextState[columnId] = normalizedState[columnId].filter((card) => !isCompletedCardExpired(card, now));
         return nextState;
       }
 
-      nextState[columnId] = normalizedState[columnId].filter((card) => !isCardExpired(card, now));
+      nextState[columnId] = normalizedState[columnId].filter((card) => {
+        if (!isCardExpired(card, now)) {
+          return true;
+        }
+
+        const outcomeEvent = createFailedOutcomeEvent(card);
+
+        if (outcomeEvent) {
+          outcomeEvents.push(outcomeEvent);
+        }
+
+        return false;
+      });
       return nextState;
     },
     createEmptyTodoBoardState()
   );
+
+  return {
+    board,
+    outcomeEvents,
+  };
 }
 
 function findCardLocation(state: TodoBoardState, cardId: string): TodoCardLocation | null {
@@ -133,68 +194,205 @@ function findCardById(state: TodoBoardState, cardId: string): TodoCard | null {
   return null;
 }
 
+function applyOutcomeEvent(outcomes: TodoOutcomeMap, event: TodoOutcomeEvent): TodoOutcomeMap {
+  const existingOutcome = outcomes[event.cardId];
+
+  if (existingOutcome && (typeof existingOutcome.completedAt === "number" || typeof existingOutcome.failedAt === "number")) {
+    return outcomes;
+  }
+
+  const nextOutcome: TodoOutcome =
+    event.type === "completed"
+      ? {
+          completedAt: event.at,
+          failedAt: undefined,
+        }
+      : {
+          completedAt: undefined,
+          failedAt: event.at,
+        };
+
+  return {
+    ...outcomes,
+    [event.cardId]: nextOutcome,
+  };
+}
+
+function removeCompletedOutcome(outcomes: TodoOutcomeMap, cardId: string): TodoOutcomeMap {
+  const existingOutcome = outcomes[cardId];
+
+  if (!existingOutcome || typeof existingOutcome.completedAt !== "number") {
+    return outcomes;
+  }
+
+  if (typeof existingOutcome.failedAt === "number") {
+    return {
+      ...outcomes,
+      [cardId]: {
+        completedAt: undefined,
+        failedAt: existingOutcome.failedAt,
+      },
+    };
+  }
+
+  const nextOutcomes = { ...outcomes };
+  delete nextOutcomes[cardId];
+  return nextOutcomes;
+}
+
+function applyOutcomeEvents(outcomes: TodoOutcomeMap, events: TodoOutcomeEvent[]): TodoOutcomeMap {
+  if (events.length === 0) {
+    return outcomes;
+  }
+
+  return events.reduce((nextOutcomes, event) => applyOutcomeEvent(nextOutcomes, event), outcomes);
+}
+
+function collectOutcomeEventsFromBoard(board: TodoBoardState): TodoOutcomeEvent[] {
+  const events: TodoOutcomeEvent[] = [];
+
+  for (const columnId of TODO_COLUMN_IDS) {
+    for (const card of board[columnId]) {
+      if (typeof card.completedAt === "number") {
+        events.push({
+          cardId: card.id,
+          type: "completed",
+          at: card.completedAt,
+        });
+        continue;
+      }
+
+      if (typeof card.failedAt === "number") {
+        events.push({
+          cardId: card.id,
+          type: "failed",
+          at: card.failedAt,
+        });
+      }
+    }
+  }
+
+  return events;
+}
+
+function pruneState(state: TodoState, now: number): TodoState {
+  const { board, outcomeEvents } = pruneCompletedAndExpiredCards(state.board, now);
+
+  return {
+    board,
+    outcomes: applyOutcomeEvents(state.outcomes, outcomeEvents),
+  };
+}
+
+function initializeTodoState(): TodoState {
+  const loadedBoard = loadTodoBoardState() ?? createEmptyTodoBoardState();
+  const loadedOutcomes = loadTodoOutcomeMap() ?? createEmptyTodoOutcomeMap();
+  const normalizedBoard = normalizeBoardState(loadedBoard);
+  const seededOutcomes = applyOutcomeEvents(loadedOutcomes, collectOutcomeEventsFromBoard(normalizedBoard));
+
+  const initialState: TodoState = {
+    board: normalizedBoard,
+    outcomes: seededOutcomes,
+  };
+
+  return pruneState(initialState, Date.now());
+}
+
 function moveCardInState(
   state: TodoBoardState,
   cardId: string,
-  targetColumnId: TodoColumnId
-): TodoBoardState {
-  const safeState = pruneCompletedAndExpiredCards(state, Date.now());
+  targetColumnId: TodoColumnId,
+  now: number
+): { board: TodoBoardState; outcomeEvent?: TodoOutcomeEvent; rollbackCompletedCardId?: string } {
+  const safeState = normalizeBoardState(state);
   const sourceLocation = findCardLocation(safeState, cardId);
 
   if (!sourceLocation) {
-    return safeState;
+    return {
+      board: safeState,
+    };
   }
 
   if (sourceLocation.columnId === targetColumnId) {
-    return safeState;
+    return {
+      board: safeState,
+    };
   }
 
   const sourceCards = [...safeState[sourceLocation.columnId]];
   const [movedCard] = sourceCards.splice(sourceLocation.index, 1);
 
   if (!movedCard) {
-    return safeState;
+    return {
+      board: safeState,
+    };
   }
 
   if (targetColumnId === "done") {
     if (sourceLocation.columnId === "done") {
-      return safeState;
+      return {
+        board: safeState,
+      };
     }
 
+    const completionAt = movedCard.completedAt ?? now;
+    const canCreateCompletionOutcome =
+      typeof movedCard.completedAt !== "number" && typeof movedCard.failedAt !== "number";
     const completedCard: TodoCard = {
       ...movedCard,
-      completedAt: Date.now(),
+      completedAt: completionAt,
+      failedAt: undefined,
     };
 
     return {
-      ...safeState,
-      [sourceLocation.columnId]: sortCardsByPriority(sourceCards),
-      done: sortCardsByPriority([completedCard, ...safeState.done]),
+      board: {
+        ...safeState,
+        [sourceLocation.columnId]: sortCardsByPriority(sourceCards, sourceLocation.columnId),
+        done: sortCardsByPriority([completedCard, ...safeState.done], "done"),
+      },
+      outcomeEvent: canCreateCompletionOutcome
+        ? {
+            cardId: movedCard.id,
+            type: "completed",
+            at: completionAt,
+          }
+        : undefined,
     };
   }
 
-  const targetCards = [...safeState[targetColumnId], { ...movedCard, completedAt: undefined }];
+  const targetCards = [
+    ...safeState[targetColumnId],
+    {
+      ...movedCard,
+      completedAt: undefined,
+    },
+  ];
+  const rollbackCompletedCardId = sourceLocation.columnId === "done" ? movedCard.id : undefined;
 
   return {
-    ...safeState,
-    [sourceLocation.columnId]: sortCardsByPriority(sourceCards),
-    [targetColumnId]: sortCardsByPriority(targetCards),
+    board: {
+      ...safeState,
+      [sourceLocation.columnId]: sortCardsByPriority(sourceCards, sourceLocation.columnId),
+      [targetColumnId]: sortCardsByPriority(targetCards, targetColumnId),
+    },
+    rollbackCompletedCardId,
   };
 }
 
 export function useTodoBoard() {
-  const [board, setBoard] = useState<TodoBoardState>(() => {
-    const initialBoardState = loadTodoBoardState() ?? createEmptyTodoBoardState();
-    return pruneCompletedAndExpiredCards(initialBoardState, Date.now());
-  });
+  const [state, setState] = useState<TodoState>(() => initializeTodoState());
 
   useEffect(() => {
-    saveTodoBoardState(board);
-  }, [board]);
+    saveTodoBoardState(state.board);
+  }, [state.board]);
+
+  useEffect(() => {
+    saveTodoOutcomeMap(state.outcomes);
+  }, [state.outcomes]);
 
   useEffect(() => {
     const intervalId = window.setInterval(() => {
-      setBoard((currentBoard) => pruneCompletedAndExpiredCards(currentBoard, Date.now()));
+      setState((currentState) => pruneState(currentState, Date.now()));
     }, 60_000);
 
     return () => {
@@ -221,15 +419,19 @@ export function useTodoBoard() {
       createdAt: Date.now(),
       isNote: false,
       completedAt: undefined,
+      failedAt: undefined,
     };
 
-    setBoard((currentBoard) => {
-      const safeBoard = pruneCompletedAndExpiredCards(currentBoard, Date.now());
-      const nextCards = sortCardsByPriority([nextCard, ...safeBoard[DEFAULT_TODO_COLUMN_ID]]);
+    setState((currentState) => {
+      const safeState = pruneState(currentState, Date.now());
+      const nextCards = sortCardsByPriority([nextCard, ...safeState.board[DEFAULT_TODO_COLUMN_ID]], DEFAULT_TODO_COLUMN_ID);
 
       return {
-        ...safeBoard,
-        [DEFAULT_TODO_COLUMN_ID]: nextCards,
+        ...safeState,
+        board: {
+          ...safeState.board,
+          [DEFAULT_TODO_COLUMN_ID]: nextCards,
+        },
       };
     });
 
@@ -254,15 +456,19 @@ export function useTodoBoard() {
       createdAt: Date.now(),
       isNote: true,
       completedAt: undefined,
+      failedAt: undefined,
     };
 
-    setBoard((currentBoard) => {
-      const safeBoard = pruneCompletedAndExpiredCards(currentBoard, Date.now());
-      const nextCards = sortCardsByPriority([nextNote, ...safeBoard[NOTES_COLUMN_ID]]);
+    setState((currentState) => {
+      const safeState = pruneState(currentState, Date.now());
+      const nextCards = sortCardsByPriority([nextNote, ...safeState.board[NOTES_COLUMN_ID]], NOTES_COLUMN_ID);
 
       return {
-        ...safeBoard,
-        [NOTES_COLUMN_ID]: nextCards,
+        ...safeState,
+        board: {
+          ...safeState.board,
+          [NOTES_COLUMN_ID]: nextCards,
+        },
       };
     });
 
@@ -279,15 +485,15 @@ export function useTodoBoard() {
 
     const description = update.description.trim();
 
-    setBoard((currentBoard) => {
-      const safeBoard = pruneCompletedAndExpiredCards(currentBoard, Date.now());
-      const location = findCardLocation(safeBoard, cardId);
+    setState((currentState) => {
+      const safeState = pruneState(currentState, Date.now());
+      const location = findCardLocation(safeState.board, cardId);
 
       if (!location) {
-        return safeBoard;
+        return safeState;
       }
 
-      const nextCards = safeBoard[location.columnId].map((card) => {
+      const nextCards = safeState.board[location.columnId].map((card) => {
         if (card.id !== cardId) {
           return card;
         }
@@ -303,8 +509,11 @@ export function useTodoBoard() {
       });
 
       return {
-        ...safeBoard,
-        [location.columnId]: sortCardsByPriority(nextCards),
+        ...safeState,
+        board: {
+          ...safeState.board,
+          [location.columnId]: sortCardsByPriority(nextCards, location.columnId),
+        },
       };
     });
 
@@ -313,38 +522,56 @@ export function useTodoBoard() {
 
   const moveCard = useCallback(
     (cardId: string, targetColumnId: TodoColumnId): void => {
-      setBoard((currentBoard) => moveCardInState(currentBoard, cardId, targetColumnId));
+      setState((currentState) => {
+        const now = Date.now();
+        const safeState = pruneState(currentState, now);
+        const { board, outcomeEvent, rollbackCompletedCardId } = moveCardInState(safeState.board, cardId, targetColumnId, now);
+        let nextOutcomes = outcomeEvent ? applyOutcomeEvent(safeState.outcomes, outcomeEvent) : safeState.outcomes;
+
+        if (rollbackCompletedCardId) {
+          nextOutcomes = removeCompletedOutcome(nextOutcomes, rollbackCompletedCardId);
+        }
+
+        return {
+          board,
+          outcomes: nextOutcomes,
+        };
+      });
     },
     []
   );
 
   const deleteCard = useCallback((cardId: string): void => {
-    setBoard((currentBoard) => {
-      const safeBoard = pruneCompletedAndExpiredCards(currentBoard, Date.now());
-      const location = findCardLocation(safeBoard, cardId);
+    setState((currentState) => {
+      const safeState = pruneState(currentState, Date.now());
+      const location = findCardLocation(safeState.board, cardId);
 
       if (!location) {
-        return safeBoard;
+        return safeState;
       }
 
-      const nextCards = safeBoard[location.columnId].filter((card) => card.id !== cardId);
+      const nextCards = safeState.board[location.columnId].filter((card) => card.id !== cardId);
 
       return {
-        ...safeBoard,
-        [location.columnId]: sortCardsByPriority(nextCards),
+        ...safeState,
+        board: {
+          ...safeState.board,
+          [location.columnId]: sortCardsByPriority(nextCards, location.columnId),
+        },
       };
     });
   }, []);
 
   const getCardById = useCallback(
     (cardId: string): TodoCard | null => {
-      return findCardById(board, cardId);
+      return findCardById(state.board, cardId);
     },
-    [board]
+    [state.board]
   );
 
   return {
-    board,
+    board: state.board,
+    outcomes: state.outcomes,
     addCard,
     addNote,
     updateCard,

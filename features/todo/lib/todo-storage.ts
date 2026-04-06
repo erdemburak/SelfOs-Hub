@@ -5,10 +5,12 @@ import {
   type TodoBoardState,
   type TodoCategory,
   type TodoCard,
+  type TodoOutcomeMap,
   type TodoPriority,
 } from "../types";
 
 const TODO_BOARD_STORAGE_KEY = "selfos.todo.board.v1";
+const TODO_OUTCOME_STORAGE_KEY = "selfos.todo.outcomes.v1";
 const NOTE_DUE_DATE_FALLBACK = "9999-12-31";
 const LEGACY_THREE_COLUMN_IDS = ["todo", "in-progress", "done"] as const;
 const LEGACY_WEEKLY_COLUMN_IDS = [
@@ -56,7 +58,10 @@ function parseTodoCard(value: unknown): TodoCard | null {
   const isNote =
     candidate.isNote === true ||
     (candidate.isNote === undefined && typeof candidate.dueDate === "string" && candidate.dueDate === NOTE_DUE_DATE_FALLBACK);
-  const completedAt = typeof candidate.completedAt === "number" ? candidate.completedAt : undefined;
+  const rawCompletedAt = typeof candidate.completedAt === "number" ? candidate.completedAt : undefined;
+  const rawFailedAt = typeof candidate.failedAt === "number" ? candidate.failedAt : undefined;
+  const completedAt = rawCompletedAt;
+  const failedAt = typeof completedAt === "number" ? undefined : rawFailedAt;
 
   if (
     typeof candidate.id !== "string" ||
@@ -76,6 +81,7 @@ function parseTodoCard(value: unknown): TodoCard | null {
     createdAt: candidate.createdAt,
     isNote,
     completedAt,
+    failedAt,
   };
 }
 
@@ -178,6 +184,41 @@ export function createEmptyTodoBoardState(): TodoBoardState {
   };
 }
 
+export function createEmptyTodoOutcomeMap(): TodoOutcomeMap {
+  return {};
+}
+
+function normalizeOutcomeMap(value: unknown): TodoOutcomeMap | null {
+  if (!value || typeof value !== "object" || Array.isArray(value)) {
+    return null;
+  }
+
+  const candidate = value as Record<string, unknown>;
+  const normalized: TodoOutcomeMap = {};
+
+  for (const [cardId, rawOutcome] of Object.entries(candidate)) {
+    if (!rawOutcome || typeof rawOutcome !== "object" || Array.isArray(rawOutcome)) {
+      continue;
+    }
+
+    const parsedOutcome = rawOutcome as Record<string, unknown>;
+    const completedAt = typeof parsedOutcome.completedAt === "number" ? parsedOutcome.completedAt : undefined;
+    const failedAtRaw = typeof parsedOutcome.failedAt === "number" ? parsedOutcome.failedAt : undefined;
+    const failedAt = typeof completedAt === "number" ? undefined : failedAtRaw;
+
+    if (typeof completedAt !== "number" && typeof failedAt !== "number") {
+      continue;
+    }
+
+    normalized[cardId] = {
+      completedAt,
+      failedAt,
+    };
+  }
+
+  return normalized;
+}
+
 export function loadTodoBoardState(): TodoBoardState | null {
   if (typeof window === "undefined") {
     return null;
@@ -208,6 +249,37 @@ export function saveTodoBoardState(state: TodoBoardState): void {
 
   try {
     window.localStorage.setItem(TODO_BOARD_STORAGE_KEY, JSON.stringify(state));
+  } catch {
+    // Intentionally ignore write failures (private mode/quota errors).
+  }
+}
+
+export function loadTodoOutcomeMap(): TodoOutcomeMap | null {
+  if (typeof window === "undefined") {
+    return null;
+  }
+
+  try {
+    const storedValue = window.localStorage.getItem(TODO_OUTCOME_STORAGE_KEY);
+
+    if (!storedValue) {
+      return null;
+    }
+
+    const parsedValue: unknown = JSON.parse(storedValue);
+    return normalizeOutcomeMap(parsedValue);
+  } catch {
+    return null;
+  }
+}
+
+export function saveTodoOutcomeMap(state: TodoOutcomeMap): void {
+  if (typeof window === "undefined") {
+    return;
+  }
+
+  try {
+    window.localStorage.setItem(TODO_OUTCOME_STORAGE_KEY, JSON.stringify(state));
   } catch {
     // Intentionally ignore write failures (private mode/quota errors).
   }

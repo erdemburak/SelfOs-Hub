@@ -20,12 +20,14 @@ import { AddTodoCardForm } from "./add-todo-card-form";
 import { TodoCardDetailsModal } from "./todo-card-details-modal";
 import { TodoCardDragOverlay } from "./todo-card";
 import { TodoColumn } from "./todo-column";
+import { TodoPerformanceCalendar } from "./todo-performance-calendar";
 
 export function TodoBoard() {
-  const { board, addCard, addNote, updateCard, moveCard, deleteCard, getCardById } = useTodoBoard();
+  const { board, outcomes, addCard, addNote, updateCard, moveCard, deleteCard, getCardById } = useTodoBoard();
   const [activeCardId, setActiveCardId] = useState<string | null>(null);
   const [activeCardColumnId, setActiveCardColumnId] = useState<TodoColumnId | null>(null);
   const [selectedCardId, setSelectedCardId] = useState<string | null>(null);
+  const [pendingCompletionCardId, setPendingCompletionCardId] = useState<string | null>(null);
 
   const sensors = useSensors(
     useSensor(PointerSensor, {
@@ -67,6 +69,8 @@ export function TodoBoard() {
 
   const handleDragEnd = (event: DragEndEvent) => {
     const { active, over } = event;
+    const activeData = active.data.current as TodoDragData | undefined;
+    const sourceColumnId = activeData?.type === "card" ? activeData.columnId : null;
     setActiveCardId(null);
     setActiveCardColumnId(null);
 
@@ -82,7 +86,17 @@ export function TodoBoard() {
     }
 
     if (overData.type === "column") {
+      if (overData.columnId === "done" && sourceColumnId && sourceColumnId !== "done") {
+        setPendingCompletionCardId(draggedCardId);
+        return;
+      }
+
       moveCard(draggedCardId, overData.columnId);
+      return;
+    }
+
+    if (overData.columnId === "done" && sourceColumnId && sourceColumnId !== "done") {
+      setPendingCompletionCardId(draggedCardId);
       return;
     }
 
@@ -111,15 +125,40 @@ export function TodoBoard() {
     return updateCard(selectedCardId, update);
   };
 
+  const handleCancelCompletion = () => {
+    setPendingCompletionCardId(null);
+  };
+
+  const handleConfirmCompletion = () => {
+    if (!pendingCompletionCardId) {
+      return;
+    }
+
+    moveCard(pendingCompletionCardId, "done");
+    setPendingCompletionCardId(null);
+  };
+
   return (
     <section className="space-y-6">
       <div className="rounded-2xl border border-slate-800 bg-slate-900/40 p-4 md:p-5">
         <p className="text-xs uppercase tracking-[0.16em] text-slate-500">ToDo Board</p>
-        <h3 className="mt-1 text-base font-semibold text-slate-100">Görev Panosu</h3>
-        <p className="mt-2 mb-4 text-xs text-slate-400">
-          Yeni kartlar varsayılan olarak Yapılacaklar sütununa eklenir. Tamamlanan kartlar 24 saat görünür, süresi dolanlar otomatik kaldırılır.
-        </p>
-        <AddTodoCardForm onAddCard={addCard} onAddNote={addNote} />
+        <div className="mt-2 flex flex-col gap-4 lg:grid lg:grid-cols-[minmax(0,1fr)_minmax(460px,560px)] lg:items-start lg:gap-6">
+          <div className="space-y-4 lg:flex lg:h-full lg:flex-col lg:justify-center lg:space-y-0">
+            <div>
+              <h3 className="text-base font-semibold text-slate-100">Görev Panosu</h3>
+              <p className="mt-2 text-xs text-slate-400">
+                Yeni kartlar varsayılan olarak Yapılacaklar sütununa eklenir. Tamamlanan kartlar 24 saat görünür, süresi dolanlar otomatik
+                kaldırılır.
+              </p>
+            </div>
+            <div className="lg:pt-4">
+              <AddTodoCardForm onAddCard={addCard} onAddNote={addNote} />
+            </div>
+          </div>
+          <div className="w-full lg:justify-self-end lg:self-start">
+            <TodoPerformanceCalendar outcomes={outcomes} />
+          </div>
+        </div>
       </div>
 
       <DndContext
@@ -157,6 +196,33 @@ export function TodoBoard() {
         onClose={handleCloseCardDetails}
         onSave={handleSaveCardDetails}
       />
+
+      {pendingCompletionCardId ? (
+        <div className="fixed inset-0 z-50 flex items-center justify-center bg-slate-950/80 p-4">
+          <div className="w-full max-w-md rounded-2xl border border-slate-700 bg-slate-900 p-5 md:p-6">
+            <p className="text-xs uppercase tracking-[0.16em] text-slate-500">Completion Confirmation</p>
+            <h3 className="mt-2 text-base font-semibold text-slate-100">
+              Are you sure you want to mark this task as completed?
+            </h3>
+            <div className="mt-4 flex justify-end gap-2">
+              <button
+                type="button"
+                onClick={handleCancelCompletion}
+                className="rounded-xl border border-slate-700 px-4 py-2 text-sm text-slate-300 transition hover:text-slate-100"
+              >
+                Cancel
+              </button>
+              <button
+                type="button"
+                onClick={handleConfirmCompletion}
+                className="rounded-xl border border-emerald-500/50 bg-emerald-500/15 px-4 py-2 text-sm font-medium text-emerald-200 transition hover:border-emerald-400 hover:text-emerald-100"
+              >
+                Confirm
+              </button>
+            </div>
+          </div>
+        </div>
+      ) : null}
     </section>
   );
 }

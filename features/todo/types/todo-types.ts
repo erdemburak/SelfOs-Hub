@@ -23,9 +23,17 @@ export type TodoCard = {
   createdAt: number;
   isNote: boolean;
   completedAt?: number;
+  failedAt?: number;
 };
 
 export type TodoBoardState = Record<TodoColumnId, TodoCard[]>;
+
+export type TodoOutcome = {
+  completedAt?: number;
+  failedAt?: number;
+};
+
+export type TodoOutcomeMap = Record<string, TodoOutcome>;
 
 export type TodoCardDraft = {
   title: string;

@@ -11,6 +11,8 @@ export {
   type TodoCard,
   type TodoCardDraft,
   type TodoNoteDraft,
+  type TodoOutcome,
+  type TodoOutcomeMap,
   type TodoCardUpdate,
   type TodoColumn,
   type TodoColumnId,
