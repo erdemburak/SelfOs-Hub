@@ -9,7 +9,7 @@ export function Sidebar() {
   const pathname = usePathname();
 
   return (
-    <aside className="border-slate-800/80 bg-slate-950 md:w-72 md:border-r">
+    <aside className="border-slate-800/80 bg-slate-950 md:w-[var(--workspace-sidebar-width)] md:shrink-0 md:border-r">
       <div className="flex h-full flex-col gap-6 p-4 md:p-6">
         <div>
           <p className="text-xs uppercase tracking-[0.2em] text-slate-500">SelfOS Hub</p>

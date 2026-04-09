@@ -25,7 +25,7 @@ export function TodoColumn({ column, cards, onOpenCard, onDeleteCard }: TodoColu
   return (
     <section
       className={[
-        "flex h-full min-h-[360px] min-w-[240px] flex-col rounded-2xl border bg-slate-900/35",
+        "flex h-full min-h-[360px] min-w-0 flex-col rounded-2xl border bg-slate-900/35",
         column.id === "in-progress"
           ? "border-amber-400/30"
           : column.id === "done"
@@ -33,8 +33,8 @@ export function TodoColumn({ column, cards, onOpenCard, onDeleteCard }: TodoColu
             : "border-slate-800",
       ].join(" ")}
     >
-      <header className="flex items-center justify-between border-b border-slate-800 px-4 py-3">
-        <h3 className="text-sm font-semibold text-slate-100">{column.title}</h3>
+      <header className="flex min-w-0 items-center justify-between gap-2 border-b border-slate-800 px-4 py-3">
+        <h3 className="min-w-0 break-words text-sm font-semibold text-slate-100">{column.title}</h3>
         <span className="rounded-full border border-slate-700 px-2 py-0.5 text-xs text-slate-300">
           {cards.length}
         </span>
@@ -43,7 +43,7 @@ export function TodoColumn({ column, cards, onOpenCard, onDeleteCard }: TodoColu
       <div
         ref={setNodeRef}
         className={[
-          "flex flex-1 flex-col gap-3 p-3 transition-colors",
+          "flex min-w-0 flex-1 flex-col gap-3 p-3 transition-colors",
           isOver ? "bg-teal-500/5" : "",
         ].join(" ")}
       >

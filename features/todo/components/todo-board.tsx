@@ -168,8 +168,8 @@ export function TodoBoard() {
         onDragCancel={handleDragCancel}
         onDragEnd={handleDragEnd}
       >
-        <div className="overflow-x-auto pb-2">
-          <div className="grid min-w-max grid-flow-col auto-cols-[minmax(260px,300px)] gap-4">
+        <div className="min-w-0 pb-2">
+          <div className="grid min-w-0 grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4">
             {TODO_COLUMNS.map((column) => (
               <TodoColumn
                 key={column.id}

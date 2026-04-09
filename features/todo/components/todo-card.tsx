@@ -69,7 +69,7 @@ function TodoCardFrame({
   return (
     <article
       className={[
-        "cursor-pointer rounded-xl border p-3",
+        "min-w-0 cursor-pointer rounded-xl border p-3",
         "shadow-[0_8px_24px_-18px_rgba(15,23,42,0.85)]",
         isDragging ? "opacity-40" : "opacity-100",
         colors.card,
@@ -80,8 +80,8 @@ function TodoCardFrame({
       onClick={onOpen}
     >
       {card.isNote ? (
-        <div className="flex items-start justify-between gap-3">
-          {hasNoteTitle ? <h4 className="text-sm font-semibold text-slate-100">{card.title}</h4> : null}
+        <div className="flex min-w-0 items-start justify-between gap-3">
+          {hasNoteTitle ? <h4 className="min-w-0 break-words text-sm font-semibold text-slate-100">{card.title}</h4> : null}
           <div className="flex flex-wrap items-center justify-end gap-1">
             <button
               type="button"
@@ -104,8 +104,8 @@ function TodoCardFrame({
         </div>
       ) : (
         <>
-          <div className="flex items-start justify-between gap-3">
-            <h4 className="text-sm font-semibold text-slate-100">{card.title}</h4>
+          <div className="flex min-w-0 items-start justify-between gap-3">
+            <h4 className="min-w-0 break-words text-sm font-semibold text-slate-100">{card.title}</h4>
             <div className="flex flex-wrap items-center justify-end gap-1">
               <span className={["rounded-full border px-2 py-0.5 text-[11px] font-medium", colors.badge].join(" ")}>
                 {PRIORITY_LABELS[card.priority]}
@@ -119,7 +119,7 @@ function TodoCardFrame({
         </>
       )}
       {card.description ? (
-        <p className="mt-2 text-xs leading-relaxed text-slate-400">{card.description}</p>
+        <p className="mt-2 break-words text-xs leading-relaxed text-slate-400">{card.description}</p>
       ) : (
         <p className="mt-2 text-xs text-slate-500">Açıklama yok.</p>
       )}
@@ -150,7 +150,7 @@ export function TodoCard({ card, columnId, onOpen = () => {}, onDelete }: TodoCa
   };
 
   return (
-    <div ref={setNodeRef} style={style}>
+    <div ref={setNodeRef} style={style} className="min-w-0">
       <TodoCardFrame
         card={card}
         columnId={columnId}
