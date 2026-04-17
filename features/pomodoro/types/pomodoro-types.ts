@@ -23,6 +23,7 @@ export type PomodoroRuntimeState = {
   mode: PomodoroMode;
   remainingMs: number;
   isRunning: boolean;
+  sessionActive: boolean;
 };
 
 export type PomodoroPersistedState = {

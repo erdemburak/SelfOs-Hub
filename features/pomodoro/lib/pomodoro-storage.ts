@@ -73,6 +73,7 @@ export function createInitialPomodoroState(now: number = Date.now()): PomodoroPe
       mode,
       remainingMs: getModeDurationMs(mode, settings),
       isRunning: false,
+      sessionActive: false,
     },
     daily: createEmptyDailySummary(getDateKeyFromTimestamp(now)),
   };
@@ -156,20 +157,26 @@ function normalizeRuntime(rawValue: unknown, settings: PomodoroSettings): Pomodo
       mode: defaultMode,
       remainingMs: fallbackRemainingMs,
       isRunning: false,
+      sessionActive: false,
     };
   }
 
   const mode = isPomodoroMode(rawValue.mode) ? rawValue.mode : defaultMode;
+  const isRunning = rawValue.isRunning === true;
   const fullDurationMs = getModeDurationMs(mode, settings);
   const remainingMs =
     typeof rawValue.remainingMs === "number" && Number.isFinite(rawValue.remainingMs)
       ? Math.min(fullDurationMs, Math.max(0, Math.round(rawValue.remainingMs)))
       : fullDurationMs;
+  const hasPersistedSessionActive = typeof rawValue.sessionActive === "boolean";
+  const persistedSessionActive = rawValue.sessionActive === true;
+  const sessionActive = hasPersistedSessionActive ? persistedSessionActive : isRunning || remainingMs < fullDurationMs;
 
   return {
     mode,
     remainingMs,
-    isRunning: rawValue.isRunning === true,
+    isRunning,
+    sessionActive,
   };
 }
 

@@ -2,7 +2,7 @@
 
 import { useMemo, useState } from "react";
 
-import { usePomodoroTimer } from "../hooks";
+import { usePomodoroTimer } from "../context";
 import type { PomodoroMode } from "../types";
 
 type ModeTheme = {

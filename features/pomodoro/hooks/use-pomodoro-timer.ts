@@ -25,6 +25,7 @@ type PomodoroState = {
   mode: PomodoroMode;
   remainingMs: number;
   isRunning: boolean;
+  sessionActive: boolean;
   daily: PomodoroDailySummary;
   completionNotice: CompletionNotice | null;
 };
@@ -79,6 +80,7 @@ function completeSessionFromState(currentState: PomodoroState, completedMode: Po
     mode: nextMode,
     remainingMs: getModeDurationMs(nextMode, currentState.settings),
     isRunning: false,
+    sessionActive: false,
     daily: {
       dateKey: syncedDailySummary.dateKey,
       completedPomodoros:
@@ -111,6 +113,7 @@ function createInitialHookState(now: number = Date.now()): PomodoroState {
     mode,
     remainingMs,
     isRunning: persistedState.runtime.isRunning,
+    sessionActive: persistedState.runtime.sessionActive,
     daily: syncedDailySummary,
     completionNotice: null,
   };
@@ -149,6 +152,7 @@ function createPersistedState(state: PomodoroState, timestamp: number): Pomodoro
       mode: state.mode,
       remainingMs: state.remainingMs,
       isRunning: state.isRunning,
+      sessionActive: state.sessionActive,
     },
     daily: ensureDailySummaryForTimestamp(state.daily, timestamp),
   };
@@ -214,6 +218,7 @@ export function usePomodoroTimer() {
         currentState.settings
       ),
       isRunning: false,
+      sessionActive: currentState.sessionActive,
       daily: ensureDailySummaryForTimestamp(currentState.daily, pausedAt),
     }));
   }, [clearRunningAnchor, clearTimerInterval, getRemainingFromAnchor]);
@@ -234,6 +239,7 @@ export function usePomodoroTimer() {
         ...currentState,
         remainingMs: nextRemainingMs,
         isRunning: true,
+        sessionActive: true,
         daily: ensureDailySummaryForTimestamp(currentState.daily, now),
         completionNotice: null,
       };
@@ -251,6 +257,7 @@ export function usePomodoroTimer() {
         ...currentState,
         remainingMs: getModeDurationMs(currentState.mode, currentState.settings),
         isRunning: false,
+        sessionActive: false,
         daily: ensureDailySummaryForTimestamp(currentState.daily, now),
         completionNotice: null,
       };
@@ -274,6 +281,7 @@ export function usePomodoroTimer() {
           mode,
           remainingMs: getModeDurationMs(mode, currentState.settings),
           isRunning: false,
+          sessionActive: false,
           daily: ensureDailySummaryForTimestamp(currentState.daily, now),
           completionNotice: null,
         };
@@ -299,6 +307,7 @@ export function usePomodoroTimer() {
           settings: mergedSettings,
           remainingMs: getModeDurationMs(currentState.mode, mergedSettings),
           isRunning: false,
+          sessionActive: false,
           daily: ensureDailySummaryForTimestamp(currentState.daily, now),
           completionNotice: null,
         };
@@ -412,6 +421,7 @@ export function usePomodoroTimer() {
     mode: state.mode,
     currentSessionLabel,
     isRunning: state.isRunning,
+    sessionActive: state.sessionActive,
     remainingMs: state.remainingMs,
     settings: state.settings,
     dailySummary: state.daily,
