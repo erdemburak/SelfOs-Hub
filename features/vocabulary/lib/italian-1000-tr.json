@@ -1,0 +1,6002 @@
+[
+  {
+    "id": 1,
+    "rank": 1,
+    "word": "e",
+    "turkishTranslation": "e"
+  },
+  {
+    "id": 2,
+    "rank": 2,
+    "word": "non",
+    "turkishTranslation": "değil"
+  },
+  {
+    "id": 3,
+    "rank": 3,
+    "word": "che",
+    "turkishTranslation": "bu"
+  },
+  {
+    "id": 4,
+    "rank": 4,
+    "word": "di",
+    "turkishTranslation": "arasında"
+  },
+  {
+    "id": 5,
+    "rank": 5,
+    "word": "la",
+    "turkishTranslation": "the"
+  },
+  {
+    "id": 6,
+    "rank": 6,
+    "word": "il",
+    "turkishTranslation": "the"
+  },
+  {
+    "id": 7,
+    "rank": 7,
+    "word": "un",
+    "turkishTranslation": "bir"
+  },
+  {
+    "id": 8,
+    "rank": 8,
+    "word": "a",
+    "turkishTranslation": "bir"
+  },
+  {
+    "id": 9,
+    "rank": 9,
+    "word": "per",
+    "turkishTranslation": "için"
+  },
+  {
+    "id": 10,
+    "rank": 10,
+    "word": "è",
+    "turkishTranslation": "öyle"
+  },
+  {
+    "id": 11,
+    "rank": 11,
+    "word": "in",
+    "turkishTranslation": "içinde"
+  },
+  {
+    "id": 12,
+    "rank": 12,
+    "word": "una",
+    "turkishTranslation": "bir"
+  },
+  {
+    "id": 13,
+    "rank": 13,
+    "word": "mi",
+    "turkishTranslation": "ben"
+  },
+  {
+    "id": 14,
+    "rank": 14,
+    "word": "sono",
+    "turkishTranslation": "ben"
+  },
+  {
+    "id": 15,
+    "rank": 15,
+    "word": "ho",
+    "turkishTranslation": "bende"
+  },
+  {
+    "id": 16,
+    "rank": 16,
+    "word": "si",
+    "turkishTranslation": "evet"
+  },
+  {
+    "id": 17,
+    "rank": 17,
+    "word": "ha",
+    "turkishTranslation": "ha"
+  },
+  {
+    "id": 18,
+    "rank": 18,
+    "word": "ma",
+    "turkishTranslation": "ama"
+  },
+  {
+    "id": 19,
+    "rank": 19,
+    "word": "lo",
+    "turkishTranslation": "ben"
+  },
+  {
+    "id": 20,
+    "rank": 20,
+    "word": "cosa",
+    "turkishTranslation": "ne"
+  },
+  {
+    "id": 21,
+    "rank": 21,
+    "word": "con",
+    "turkishTranslation": "ile"
+  },
+  {
+    "id": 22,
+    "rank": 22,
+    "word": "no",
+    "turkishTranslation": "hayır"
+  },
+  {
+    "id": 23,
+    "rank": 23,
+    "word": "le",
+    "turkishTranslation": "le"
+  },
+  {
+    "id": 24,
+    "rank": 24,
+    "word": "ti",
+    "turkishTranslation": "sen"
+  },
+  {
+    "id": 25,
+    "rank": 25,
+    "word": "se",
+    "turkishTranslation": "eğer"
+  },
+  {
+    "id": 26,
+    "rank": 26,
+    "word": "da",
+    "turkishTranslation": "itibaren"
+  },
+  {
+    "id": 27,
+    "rank": 27,
+    "word": "i",
+    "turkishTranslation": "ben"
+  },
+  {
+    "id": 28,
+    "rank": 28,
+    "word": "come",
+    "turkishTranslation": "nasıl"
+  },
+  {
+    "id": 29,
+    "rank": 29,
+    "word": "io",
+    "turkishTranslation": "ben"
+  },
+  {
+    "id": 30,
+    "rank": 30,
+    "word": "ci",
+    "turkishTranslation": "orada"
+  },
+  {
+    "id": 31,
+    "rank": 31,
+    "word": "hai",
+    "turkishTranslation": "sende"
+  },
+  {
+    "id": 32,
+    "rank": 32,
+    "word": "questo",
+    "turkishTranslation": "bu"
+  },
+  {
+    "id": 33,
+    "rank": 33,
+    "word": "bene",
+    "turkishTranslation": "iyi"
+  },
+  {
+    "id": 34,
+    "rank": 34,
+    "word": "qui",
+    "turkishTranslation": "burada"
+  },
+  {
+    "id": 35,
+    "rank": 35,
+    "word": "sei",
+    "turkishTranslation": "sen"
+  },
+  {
+    "id": 36,
+    "rank": 36,
+    "word": "del",
+    "turkishTranslation": "arasında"
+  },
+  {
+    "id": 37,
+    "rank": 37,
+    "word": "tu",
+    "turkishTranslation": "sen"
+  },
+  {
+    "id": 38,
+    "rank": 38,
+    "word": "solo",
+    "turkishTranslation": "yalnız"
+  },
+  {
+    "id": 39,
+    "rank": 39,
+    "word": "mio",
+    "turkishTranslation": "benim"
+  },
+  {
+    "id": 40,
+    "rank": 40,
+    "word": "al",
+    "turkishTranslation": "al"
+  },
+  {
+    "id": 41,
+    "rank": 41,
+    "word": "me",
+    "turkishTranslation": "ben"
+  },
+  {
+    "id": 42,
+    "rank": 42,
+    "word": "tutto",
+    "turkishTranslation": "her şey"
+  },
+  {
+    "id": 43,
+    "rank": 43,
+    "word": "te",
+    "turkishTranslation": "sen"
+  },
+  {
+    "id": 44,
+    "rank": 44,
+    "word": "era",
+    "turkishTranslation": "öyleydi"
+  },
+  {
+    "id": 45,
+    "rank": 45,
+    "word": "della",
+    "turkishTranslation": "arasında"
+  },
+  {
+    "id": 46,
+    "rank": 46,
+    "word": "mia",
+    "turkishTranslation": "benim"
+  },
+  {
+    "id": 47,
+    "rank": 47,
+    "word": "fatto",
+    "turkishTranslation": "bitti"
+  },
+  {
+    "id": 48,
+    "rank": 48,
+    "word": "fare",
+    "turkishTranslation": "yap"
+  },
+  {
+    "id": 49,
+    "rank": 49,
+    "word": "essere",
+    "turkishTranslation": "olmak"
+  },
+  {
+    "id": 50,
+    "rank": 50,
+    "word": "so",
+    "turkishTranslation": "biliyorum"
+  },
+  {
+    "id": 51,
+    "rank": 51,
+    "word": "quando",
+    "turkishTranslation": "ne zaman"
+  },
+  {
+    "id": 52,
+    "rank": 52,
+    "word": "sì",
+    "turkishTranslation": "evet"
+  },
+  {
+    "id": 53,
+    "rank": 53,
+    "word": "ora",
+    "turkishTranslation": "şimdi"
+  },
+  {
+    "id": 54,
+    "rank": 54,
+    "word": "lei",
+    "turkishTranslation": "onun"
+  },
+  {
+    "id": 55,
+    "rank": 55,
+    "word": "gli",
+    "turkishTranslation": "o"
+  },
+  {
+    "id": 56,
+    "rank": 56,
+    "word": "ne",
+    "turkishTranslation": "hayır"
+  },
+  {
+    "id": 57,
+    "rank": 57,
+    "word": "oh",
+    "turkishTranslation": "ah"
+  },
+  {
+    "id": 58,
+    "rank": 58,
+    "word": "questa",
+    "turkishTranslation": "bu"
+  },
+  {
+    "id": 59,
+    "rank": 59,
+    "word": "detto",
+    "turkishTranslation": "dedi"
+  },
+  {
+    "id": 60,
+    "rank": 60,
+    "word": "ok",
+    "turkishTranslation": "tamam"
+  },
+  {
+    "id": 61,
+    "rank": 61,
+    "word": "va",
+    "turkishTranslation": "git"
+  },
+  {
+    "id": 62,
+    "rank": 62,
+    "word": "perche",
+    "turkishTranslation": "neden"
+  },
+  {
+    "id": 63,
+    "rank": 63,
+    "word": "quello",
+    "turkishTranslation": "bu"
+  },
+  {
+    "id": 64,
+    "rank": 64,
+    "word": "mai",
+    "turkishTranslation": "asla"
+  },
+  {
+    "id": 65,
+    "rank": 65,
+    "word": "alla",
+    "turkishTranslation": "için"
+  },
+  {
+    "id": 66,
+    "rank": 66,
+    "word": "o",
+    "turkishTranslation": "veya"
+  },
+  {
+    "id": 67,
+    "rank": 67,
+    "word": "anche",
+    "turkishTranslation": "ayrıca"
+  },
+  {
+    "id": 68,
+    "rank": 68,
+    "word": "stato",
+    "turkishTranslation": "eyalet"
+  },
+  {
+    "id": 69,
+    "rank": 69,
+    "word": "abbiamo",
+    "turkishTranslation": "bizde"
+  },
+  {
+    "id": 70,
+    "rank": 70,
+    "word": "tutti",
+    "turkishTranslation": "herkes"
+  },
+  {
+    "id": 71,
+    "rank": 71,
+    "word": "dei",
+    "turkishTranslation": "tanrılar"
+  },
+  {
+    "id": 72,
+    "rank": 72,
+    "word": "grazie",
+    "turkishTranslation": "teşekkürler"
+  },
+  {
+    "id": 73,
+    "rank": 73,
+    "word": "chi",
+    "turkishTranslation": "kim"
+  },
+  {
+    "id": 74,
+    "rank": 74,
+    "word": "sta",
+    "turkishTranslation": "öyle"
+  },
+  {
+    "id": 75,
+    "rank": 75,
+    "word": "molto",
+    "turkishTranslation": "çok"
+  },
+  {
+    "id": 76,
+    "rank": 76,
+    "word": "più",
+    "turkishTranslation": "daha fazla"
+  },
+  {
+    "id": 77,
+    "rank": 77,
+    "word": "voglio",
+    "turkishTranslation": "istiyorum"
+  },
+  {
+    "id": 78,
+    "rank": 78,
+    "word": "perché",
+    "turkishTranslation": "neden"
+  },
+  {
+    "id": 79,
+    "rank": 79,
+    "word": "tuo",
+    "turkishTranslation": "senin"
+  },
+  {
+    "id": 80,
+    "rank": 80,
+    "word": "beh",
+    "turkishTranslation": "peki"
+  },
+  {
+    "id": 81,
+    "rank": 81,
+    "word": "sia",
+    "turkishTranslation": "evet"
+  },
+  {
+    "id": 82,
+    "rank": 82,
+    "word": "nel",
+    "turkishTranslation": "içinde"
+  },
+  {
+    "id": 83,
+    "rank": 83,
+    "word": "lui",
+    "turkishTranslation": "o"
+  },
+  {
+    "id": 84,
+    "rank": 84,
+    "word": "allora",
+    "turkishTranslation": "o zaman"
+  },
+  {
+    "id": 85,
+    "rank": 85,
+    "word": "posso",
+    "turkishTranslation": "Yapabilirim"
+  },
+  {
+    "id": 86,
+    "rank": 86,
+    "word": "piu",
+    "turkishTranslation": "daha fazla"
+  },
+  {
+    "id": 87,
+    "rank": 87,
+    "word": "ehi",
+    "turkishTranslation": "selam"
+  },
+  {
+    "id": 88,
+    "rank": 88,
+    "word": "prima",
+    "turkishTranslation": "önce"
+  },
+  {
+    "id": 89,
+    "rank": 89,
+    "word": "tua",
+    "turkishTranslation": "senin"
+  },
+  {
+    "id": 90,
+    "rank": 90,
+    "word": "suo",
+    "turkishTranslation": "onun"
+  },
+  {
+    "id": 91,
+    "rank": 91,
+    "word": "niente",
+    "turkishTranslation": "hiçbir şey"
+  },
+  {
+    "id": 92,
+    "rank": 92,
+    "word": "qualcosa",
+    "turkishTranslation": "bir şey"
+  },
+  {
+    "id": 93,
+    "rank": 93,
+    "word": "sai",
+    "turkishTranslation": "biliyorsun"
+  },
+  {
+    "id": 94,
+    "rank": 94,
+    "word": "siamo",
+    "turkishTranslation": "biz"
+  },
+  {
+    "id": 95,
+    "rank": 95,
+    "word": "cosi",
+    "turkishTranslation": "böyle"
+  },
+  {
+    "id": 96,
+    "rank": 96,
+    "word": "davvero",
+    "turkishTranslation": "gerçekten"
+  },
+  {
+    "id": 97,
+    "rank": 97,
+    "word": "ancora",
+    "turkishTranslation": "tekrar"
+  },
+  {
+    "id": 98,
+    "rank": 98,
+    "word": "hanno",
+    "turkishTranslation": "sahipler"
+  },
+  {
+    "id": 99,
+    "rank": 99,
+    "word": "stai",
+    "turkishTranslation": "kalmak"
+  },
+  {
+    "id": 100,
+    "rank": 100,
+    "word": "fa",
+    "turkishTranslation": "önce"
+  },
+  {
+    "id": 101,
+    "rank": 101,
+    "word": "sua",
+    "turkishTranslation": "onun"
+  },
+  {
+    "id": 102,
+    "rank": 102,
+    "word": "così",
+    "turkishTranslation": "böyle"
+  },
+  {
+    "id": 103,
+    "rank": 103,
+    "word": "casa",
+    "turkishTranslation": "ev"
+  },
+  {
+    "id": 104,
+    "rank": 104,
+    "word": "uno",
+    "turkishTranslation": "bir"
+  },
+  {
+    "id": 105,
+    "rank": 105,
+    "word": "dove",
+    "turkishTranslation": "nerede"
+  },
+  {
+    "id": 106,
+    "rank": 106,
+    "word": "su",
+    "turkishTranslation": "yukarı"
+  },
+  {
+    "id": 107,
+    "rank": 107,
+    "word": "vero",
+    "turkishTranslation": "doğru"
+  },
+  {
+    "id": 108,
+    "rank": 108,
+    "word": "vuoi",
+    "turkishTranslation": "istiyorsun"
+  },
+  {
+    "id": 109,
+    "rank": 109,
+    "word": "noi",
+    "turkishTranslation": "biz"
+  },
+  {
+    "id": 110,
+    "rank": 110,
+    "word": "due",
+    "turkishTranslation": "iki"
+  },
+  {
+    "id": 111,
+    "rank": 111,
+    "word": "quindi",
+    "turkishTranslation": "yani"
+  },
+  {
+    "id": 112,
+    "rank": 112,
+    "word": "dire",
+    "turkishTranslation": "demek"
+  },
+  {
+    "id": 113,
+    "rank": 113,
+    "word": "delle",
+    "turkishTranslation": "arasında"
+  },
+  {
+    "id": 114,
+    "rank": 114,
+    "word": "quella",
+    "turkishTranslation": "bu"
+  },
+  {
+    "id": 115,
+    "rank": 115,
+    "word": "sempre",
+    "turkishTranslation": "her zaman"
+  },
+  {
+    "id": 116,
+    "rank": 116,
+    "word": "altro",
+    "turkishTranslation": "diğer"
+  },
+  {
+    "id": 117,
+    "rank": 117,
+    "word": "sto",
+    "turkishTranslation": "ben"
+  },
+  {
+    "id": 118,
+    "rank": 118,
+    "word": "andare",
+    "turkishTranslation": "git"
+  },
+  {
+    "id": 119,
+    "rank": 119,
+    "word": "ad",
+    "turkishTranslation": "reklam"
+  },
+  {
+    "id": 120,
+    "rank": 120,
+    "word": "po",
+    "turkishTranslation": "biraz"
+  },
+  {
+    "id": 121,
+    "rank": 121,
+    "word": "loro",
+    "turkishTranslation": "onlar"
+  },
+  {
+    "id": 122,
+    "rank": 122,
+    "word": "devo",
+    "turkishTranslation": "mecburum"
+  },
+  {
+    "id": 123,
+    "rank": 123,
+    "word": "quel",
+    "turkishTranslation": "bu"
+  },
+  {
+    "id": 124,
+    "rank": 124,
+    "word": "forse",
+    "turkishTranslation": "belki"
+  },
+  {
+    "id": 125,
+    "rank": 125,
+    "word": "li",
+    "turkishTranslation": "orada"
+  },
+  {
+    "id": 126,
+    "rank": 126,
+    "word": "proprio",
+    "turkishTranslation": "kendi"
+  },
+  {
+    "id": 127,
+    "rank": 127,
+    "word": "certo",
+    "turkishTranslation": "elbette"
+  },
+  {
+    "id": 128,
+    "rank": 128,
+    "word": "tempo",
+    "turkishTranslation": "zaman"
+  },
+  {
+    "id": 129,
+    "rank": 129,
+    "word": "nella",
+    "turkishTranslation": "içinde"
+  },
+  {
+    "id": 130,
+    "rank": 130,
+    "word": "poi",
+    "turkishTranslation": "o zaman"
+  },
+  {
+    "id": 131,
+    "rank": 131,
+    "word": "vi",
+    "turkishTranslation": "vi"
+  },
+  {
+    "id": 132,
+    "rank": 132,
+    "word": "credo",
+    "turkishTranslation": "inanıyorum"
+  },
+  {
+    "id": 133,
+    "rank": 133,
+    "word": "vita",
+    "turkishTranslation": "hayat"
+  },
+  {
+    "id": 134,
+    "rank": 134,
+    "word": "cose",
+    "turkishTranslation": "şeyler"
+  },
+  {
+    "id": 135,
+    "rank": 135,
+    "word": "sul",
+    "turkishTranslation": "üzerinde"
+  },
+  {
+    "id": 136,
+    "rank": 136,
+    "word": "quanto",
+    "turkishTranslation": "ne kadar"
+  },
+  {
+    "id": 137,
+    "rank": 137,
+    "word": "puoi",
+    "turkishTranslation": "yapabilirsin"
+  },
+  {
+    "id": 138,
+    "rank": 138,
+    "word": "fuori",
+    "turkishTranslation": "dışarı"
+  },
+  {
+    "id": 139,
+    "rank": 139,
+    "word": "anni",
+    "turkishTranslation": "yıllar"
+  },
+  {
+    "id": 140,
+    "rank": 140,
+    "word": "cui",
+    "turkishTranslation": "hangisi"
+  },
+  {
+    "id": 141,
+    "rank": 141,
+    "word": "andiamo",
+    "turkishTranslation": "hadi gidelim"
+  },
+  {
+    "id": 142,
+    "rank": 142,
+    "word": "parte",
+    "turkishTranslation": "kısım"
+  },
+  {
+    "id": 143,
+    "rank": 143,
+    "word": "visto",
+    "turkishTranslation": "görüldü"
+  },
+  {
+    "id": 144,
+    "rank": 144,
+    "word": "qualcuno",
+    "turkishTranslation": "birisi"
+  },
+  {
+    "id": 145,
+    "rank": 145,
+    "word": "lavoro",
+    "turkishTranslation": "iş"
+  },
+  {
+    "id": 146,
+    "rank": 146,
+    "word": "voi",
+    "turkishTranslation": "sen"
+  },
+  {
+    "id": 147,
+    "rank": 147,
+    "word": "ciao",
+    "turkishTranslation": "merhaba"
+  },
+  {
+    "id": 148,
+    "rank": 148,
+    "word": "dio",
+    "turkishTranslation": "Tanrı"
+  },
+  {
+    "id": 149,
+    "rank": 149,
+    "word": "volta",
+    "turkishTranslation": "zaman"
+  },
+  {
+    "id": 150,
+    "rank": 150,
+    "word": "dopo",
+    "turkishTranslation": "sonra"
+  },
+  {
+    "id": 151,
+    "rank": 151,
+    "word": "adesso",
+    "turkishTranslation": "şimdi"
+  },
+  {
+    "id": 152,
+    "rank": 152,
+    "word": "stata",
+    "turkishTranslation": "oldu"
+  },
+  {
+    "id": 153,
+    "rank": 153,
+    "word": "uomo",
+    "turkishTranslation": "adam"
+  },
+  {
+    "id": 154,
+    "rank": 154,
+    "word": "padre",
+    "turkishTranslation": "baba"
+  },
+  {
+    "id": 155,
+    "rank": 155,
+    "word": "devi",
+    "turkishTranslation": "yapmalısın"
+  },
+  {
+    "id": 156,
+    "rank": 156,
+    "word": "bisogno",
+    "turkishTranslation": "ihtiyaç"
+  },
+  {
+    "id": 157,
+    "rank": 157,
+    "word": "gia",
+    "turkishTranslation": "evet"
+  },
+  {
+    "id": 158,
+    "rank": 158,
+    "word": "amico",
+    "turkishTranslation": "arkadaş"
+  },
+  {
+    "id": 159,
+    "rank": 159,
+    "word": "ed",
+    "turkishTranslation": "Ed"
+  },
+  {
+    "id": 160,
+    "rank": 160,
+    "word": "posto",
+    "turkishTranslation": "yer"
+  },
+  {
+    "id": 161,
+    "rank": 161,
+    "word": "nessuno",
+    "turkishTranslation": "kimse"
+  },
+  {
+    "id": 162,
+    "rank": 162,
+    "word": "via",
+    "turkishTranslation": "uzakta"
+  },
+  {
+    "id": 163,
+    "rank": 163,
+    "word": "fai",
+    "turkishTranslation": "yap"
+  },
+  {
+    "id": 164,
+    "rank": 164,
+    "word": "signore",
+    "turkishTranslation": "efendim"
+  },
+  {
+    "id": 165,
+    "rank": 165,
+    "word": "meglio",
+    "turkishTranslation": "daha iyi"
+  },
+  {
+    "id": 166,
+    "rank": 166,
+    "word": "cazzo",
+    "turkishTranslation": "sikme"
+  },
+  {
+    "id": 167,
+    "rank": 167,
+    "word": "dai",
+    "turkishTranslation": "hadi"
+  },
+  {
+    "id": 168,
+    "rank": 168,
+    "word": "dal",
+    "turkishTranslation": "itibaren"
+  },
+  {
+    "id": 169,
+    "rank": 169,
+    "word": "vuole",
+    "turkishTranslation": "istiyor"
+  },
+  {
+    "id": 170,
+    "rank": 170,
+    "word": "sembra",
+    "turkishTranslation": "öyle görünüyor"
+  },
+  {
+    "id": 171,
+    "rank": 171,
+    "word": "giorno",
+    "turkishTranslation": "gün"
+  },
+  {
+    "id": 172,
+    "rank": 172,
+    "word": "ogni",
+    "turkishTranslation": "her"
+  },
+  {
+    "id": 173,
+    "rank": 173,
+    "word": "modo",
+    "turkishTranslation": "yol"
+  },
+  {
+    "id": 174,
+    "rank": 174,
+    "word": "senza",
+    "turkishTranslation": "onsuz"
+  },
+  {
+    "id": 175,
+    "rank": 175,
+    "word": "vedere",
+    "turkishTranslation": "görmek"
+  },
+  {
+    "id": 176,
+    "rank": 176,
+    "word": "dobbiamo",
+    "turkishTranslation": "yapmalıyız"
+  },
+  {
+    "id": 177,
+    "rank": 177,
+    "word": "signor",
+    "turkishTranslation": "Bay"
+  },
+  {
+    "id": 178,
+    "rank": 178,
+    "word": "qualche",
+    "turkishTranslation": "bazıları"
+  },
+  {
+    "id": 179,
+    "rank": 179,
+    "word": "dispiace",
+    "turkishTranslation": "üzgünüm"
+  },
+  {
+    "id": 180,
+    "rank": 180,
+    "word": "penso",
+    "turkishTranslation": "sanırım"
+  },
+  {
+    "id": 181,
+    "rank": 181,
+    "word": "ecco",
+    "turkishTranslation": "işte burada"
+  },
+  {
+    "id": 182,
+    "rank": 182,
+    "word": "parlare",
+    "turkishTranslation": "konuşmak"
+  },
+  {
+    "id": 183,
+    "rank": 183,
+    "word": "tra",
+    "turkishTranslation": "arasında"
+  },
+  {
+    "id": 184,
+    "rank": 184,
+    "word": "mamma",
+    "turkishTranslation": "anne"
+  },
+  {
+    "id": 185,
+    "rank": 185,
+    "word": "già",
+    "turkishTranslation": "zaten"
+  },
+  {
+    "id": 186,
+    "rank": 186,
+    "word": "sarebbe",
+    "turkishTranslation": "olurdu"
+  },
+  {
+    "id": 187,
+    "rank": 187,
+    "word": "dalla",
+    "turkishTranslation": "itibaren"
+  },
+  {
+    "id": 188,
+    "rank": 188,
+    "word": "troppo",
+    "turkishTranslation": "çok fazla"
+  },
+  {
+    "id": 189,
+    "rank": 189,
+    "word": "fosse",
+    "turkishTranslation": "öyleydi"
+  },
+  {
+    "id": 190,
+    "rank": 190,
+    "word": "possiamo",
+    "turkishTranslation": "yapabiliriz"
+  },
+  {
+    "id": 191,
+    "rank": 191,
+    "word": "ce",
+    "turkishTranslation": "ce"
+  },
+  {
+    "id": 192,
+    "rank": 192,
+    "word": "nuovo",
+    "turkishTranslation": "yeni"
+  },
+  {
+    "id": 193,
+    "rank": 193,
+    "word": "male",
+    "turkishTranslation": "kötü"
+  },
+  {
+    "id": 194,
+    "rank": 194,
+    "word": "madre",
+    "turkishTranslation": "anne"
+  },
+  {
+    "id": 195,
+    "rank": 195,
+    "word": "avete",
+    "turkishTranslation": "sende"
+  },
+  {
+    "id": 196,
+    "rank": 196,
+    "word": "tanto",
+    "turkishTranslation": "çok"
+  },
+  {
+    "id": 197,
+    "rank": 197,
+    "word": "favore",
+    "turkishTranslation": "lütfen"
+  },
+  {
+    "id": 198,
+    "rank": 198,
+    "word": "successo",
+    "turkishTranslation": "başarı"
+  },
+  {
+    "id": 199,
+    "rank": 199,
+    "word": "vai",
+    "turkishTranslation": "git"
+  },
+  {
+    "id": 200,
+    "rank": 200,
+    "word": "sulla",
+    "turkishTranslation": "üzerinde"
+  },
+  {
+    "id": 201,
+    "rank": 201,
+    "word": "giusto",
+    "turkishTranslation": "doğru"
+  },
+  {
+    "id": 202,
+    "rank": 202,
+    "word": "sa",
+    "turkishTranslation": "biliyorsun"
+  },
+  {
+    "id": 203,
+    "rank": 203,
+    "word": "miei",
+    "turkishTranslation": "benim"
+  },
+  {
+    "id": 204,
+    "rank": 204,
+    "word": "aspetta",
+    "turkishTranslation": "bekle"
+  },
+  {
+    "id": 205,
+    "rank": 205,
+    "word": "avere",
+    "turkishTranslation": "sahip olmak"
+  },
+  {
+    "id": 206,
+    "rank": 206,
+    "word": "altra",
+    "turkishTranslation": "diğer"
+  },
+  {
+    "id": 207,
+    "rank": 207,
+    "word": "farlo",
+    "turkishTranslation": "yap"
+  },
+  {
+    "id": 208,
+    "rank": 208,
+    "word": "alle",
+    "turkishTranslation": "en"
+  },
+  {
+    "id": 209,
+    "rank": 209,
+    "word": "facendo",
+    "turkishTranslation": "yapıyor"
+  },
+  {
+    "id": 210,
+    "rank": 210,
+    "word": "abbia",
+    "turkishTranslation": "sahip olmak"
+  },
+  {
+    "id": 211,
+    "rank": 211,
+    "word": "momento",
+    "turkishTranslation": "an"
+  },
+  {
+    "id": 212,
+    "rank": 212,
+    "word": "ero",
+    "turkishTranslation": "ben"
+  },
+  {
+    "id": 213,
+    "rank": 213,
+    "word": "aveva",
+    "turkishTranslation": "vardı"
+  },
+  {
+    "id": 214,
+    "rank": 214,
+    "word": "ragazzi",
+    "turkishTranslation": "beyler"
+  },
+  {
+    "id": 215,
+    "rank": 215,
+    "word": "deve",
+    "turkishTranslation": "zorunluluk"
+  },
+  {
+    "id": 216,
+    "rank": 216,
+    "word": "persone",
+    "turkishTranslation": "insanlar"
+  },
+  {
+    "id": 217,
+    "rank": 217,
+    "word": "nostro",
+    "turkishTranslation": "bizim"
+  },
+  {
+    "id": 218,
+    "rank": 218,
+    "word": "tipo",
+    "turkishTranslation": "tip"
+  },
+  {
+    "id": 219,
+    "rank": 219,
+    "word": "prego",
+    "turkishTranslation": "lütfen"
+  },
+  {
+    "id": 220,
+    "rank": 220,
+    "word": "grande",
+    "turkishTranslation": "büyük"
+  },
+  {
+    "id": 221,
+    "rank": 221,
+    "word": "può",
+    "turkishTranslation": "yapabilir"
+  },
+  {
+    "id": 222,
+    "rank": 222,
+    "word": "senti",
+    "turkishTranslation": "dinle"
+  },
+  {
+    "id": 223,
+    "rank": 223,
+    "word": "appena",
+    "turkishTranslation": "sadece"
+  },
+  {
+    "id": 224,
+    "rank": 224,
+    "word": "potrebbe",
+    "turkishTranslation": "olabilir"
+  },
+  {
+    "id": 225,
+    "rank": 225,
+    "word": "soldi",
+    "turkishTranslation": "para"
+  },
+  {
+    "id": 226,
+    "rank": 226,
+    "word": "dice",
+    "turkishTranslation": "diyor"
+  },
+  {
+    "id": 227,
+    "rank": 227,
+    "word": "sapere",
+    "turkishTranslation": "biliyorum"
+  },
+  {
+    "id": 228,
+    "rank": 228,
+    "word": "tre",
+    "turkishTranslation": "üç"
+  },
+  {
+    "id": 229,
+    "rank": 229,
+    "word": "oggi",
+    "turkishTranslation": "bugün"
+  },
+  {
+    "id": 230,
+    "rank": 230,
+    "word": "questi",
+    "turkishTranslation": "bunlar"
+  },
+  {
+    "id": 231,
+    "rank": 231,
+    "word": "piace",
+    "turkishTranslation": "beğen"
+  },
+  {
+    "id": 232,
+    "rank": 232,
+    "word": "idea",
+    "turkishTranslation": "fikir"
+  },
+  {
+    "id": 233,
+    "rank": 233,
+    "word": "siete",
+    "turkishTranslation": "sen"
+  },
+  {
+    "id": 234,
+    "rank": 234,
+    "word": "ai",
+    "turkishTranslation": "yapay zeka"
+  },
+  {
+    "id": 235,
+    "rank": 235,
+    "word": "avevo",
+    "turkishTranslation": "bende vardı"
+  },
+  {
+    "id": 236,
+    "rank": 236,
+    "word": "figlio",
+    "turkishTranslation": "oğul"
+  },
+  {
+    "id": 237,
+    "rank": 237,
+    "word": "accordo",
+    "turkishTranslation": "anlaşma"
+  },
+  {
+    "id": 238,
+    "rank": 238,
+    "word": "gente",
+    "turkishTranslation": "insanlar"
+  },
+  {
+    "id": 239,
+    "rank": 239,
+    "word": "sicuro",
+    "turkishTranslation": "güvenli"
+  },
+  {
+    "id": 240,
+    "rank": 240,
+    "word": "vieni",
+    "turkishTranslation": "gel"
+  },
+  {
+    "id": 241,
+    "rank": 241,
+    "word": "degli",
+    "turkishTranslation": "arasında"
+  },
+  {
+    "id": 242,
+    "rank": 242,
+    "word": "guarda",
+    "turkishTranslation": "bak"
+  },
+  {
+    "id": 243,
+    "rank": 243,
+    "word": "dentro",
+    "turkishTranslation": "içeride"
+  },
+  {
+    "id": 244,
+    "rank": 244,
+    "word": "trovato",
+    "turkishTranslation": "bulundu"
+  },
+  {
+    "id": 245,
+    "rank": 245,
+    "word": "queste",
+    "turkishTranslation": "bunlar"
+  },
+  {
+    "id": 246,
+    "rank": 246,
+    "word": "caso",
+    "turkishTranslation": "dava"
+  },
+  {
+    "id": 247,
+    "rank": 247,
+    "word": "forza",
+    "turkishTranslation": "güç"
+  },
+  {
+    "id": 248,
+    "rank": 248,
+    "word": "tutte",
+    "turkishTranslation": "hepsi"
+  },
+  {
+    "id": 249,
+    "rank": 249,
+    "word": "pensi",
+    "turkishTranslation": "sen düşünüyorsun"
+  },
+  {
+    "id": 250,
+    "rank": 250,
+    "word": "signora",
+    "turkishTranslation": "hanımefendi"
+  },
+  {
+    "id": 251,
+    "rank": 251,
+    "word": "faccio",
+    "turkishTranslation": "yaparım"
+  },
+  {
+    "id": 252,
+    "rank": 252,
+    "word": "nome",
+    "turkishTranslation": "isim"
+  },
+  {
+    "id": 253,
+    "rank": 253,
+    "word": "avuto",
+    "turkishTranslation": "vardı"
+  },
+  {
+    "id": 254,
+    "rank": 254,
+    "word": "problema",
+    "turkishTranslation": "sorun"
+  },
+  {
+    "id": 255,
+    "rank": 255,
+    "word": "altri",
+    "turkishTranslation": "diğerleri"
+  },
+  {
+    "id": 256,
+    "rank": 256,
+    "word": "puo",
+    "turkishTranslation": "yapabilir"
+  },
+  {
+    "id": 257,
+    "rank": 257,
+    "word": "aver",
+    "turkishTranslation": "sahip olmak"
+  },
+  {
+    "id": 258,
+    "rank": 258,
+    "word": "mondo",
+    "turkishTranslation": "dünya"
+  },
+  {
+    "id": 259,
+    "rank": 259,
+    "word": "tutta",
+    "turkishTranslation": "hepsi"
+  },
+  {
+    "id": 260,
+    "rank": 260,
+    "word": "preso",
+    "turkishTranslation": "alınmış"
+  },
+  {
+    "id": 261,
+    "rank": 261,
+    "word": "nulla",
+    "turkishTranslation": "hiçbir şey"
+  },
+  {
+    "id": 262,
+    "rank": 262,
+    "word": "nostra",
+    "turkishTranslation": "bizim"
+  },
+  {
+    "id": 263,
+    "rank": 263,
+    "word": "donna",
+    "turkishTranslation": "kadın"
+  },
+  {
+    "id": 264,
+    "rank": 264,
+    "word": "stare",
+    "turkishTranslation": "kalmak"
+  },
+  {
+    "id": 265,
+    "rank": 265,
+    "word": "basta",
+    "turkishTranslation": "yeterli"
+  },
+  {
+    "id": 266,
+    "rank": 266,
+    "word": "insieme",
+    "turkishTranslation": "birlikte"
+  },
+  {
+    "id": 267,
+    "rank": 267,
+    "word": "faccia",
+    "turkishTranslation": "yüz"
+  },
+  {
+    "id": 268,
+    "rank": 268,
+    "word": "ragazza",
+    "turkishTranslation": "kız"
+  },
+  {
+    "id": 269,
+    "rank": 269,
+    "word": "subito",
+    "turkishTranslation": "hemen"
+  },
+  {
+    "id": 270,
+    "rank": 270,
+    "word": "famiglia",
+    "turkishTranslation": "aile"
+  },
+  {
+    "id": 271,
+    "rank": 271,
+    "word": "ragazzo",
+    "turkishTranslation": "oğlan"
+  },
+  {
+    "id": 272,
+    "rank": 272,
+    "word": "volevo",
+    "turkishTranslation": "istedim"
+  },
+  {
+    "id": 273,
+    "rank": 273,
+    "word": "okay",
+    "turkishTranslation": "tamam"
+  },
+  {
+    "id": 274,
+    "rank": 274,
+    "word": "sentito",
+    "turkishTranslation": "duydum"
+  },
+  {
+    "id": 275,
+    "rank": 275,
+    "word": "ah",
+    "turkishTranslation": "ah"
+  },
+  {
+    "id": 276,
+    "rank": 276,
+    "word": "stesso",
+    "turkishTranslation": "aynı"
+  },
+  {
+    "id": 277,
+    "rank": 277,
+    "word": "ragione",
+    "turkishTranslation": "sebep"
+  },
+  {
+    "id": 278,
+    "rank": 278,
+    "word": "sarà",
+    "turkishTranslation": "olacak"
+  },
+  {
+    "id": 279,
+    "rank": 279,
+    "word": "tuoi",
+    "turkishTranslation": "senin"
+  },
+  {
+    "id": 280,
+    "rank": 280,
+    "word": "capito",
+    "turkishTranslation": "anlaşıldı"
+  },
+  {
+    "id": 281,
+    "rank": 281,
+    "word": "notte",
+    "turkishTranslation": "gece"
+  },
+  {
+    "id": 282,
+    "rank": 282,
+    "word": "volte",
+    "turkishTranslation": "kez"
+  },
+  {
+    "id": 283,
+    "rank": 283,
+    "word": "testa",
+    "turkishTranslation": "kafa"
+  },
+  {
+    "id": 284,
+    "rank": 284,
+    "word": "serve",
+    "turkishTranslation": "yardımcı olur"
+  },
+  {
+    "id": 285,
+    "rank": 285,
+    "word": "tesoro",
+    "turkishTranslation": "sevgilim"
+  },
+  {
+    "id": 286,
+    "rank": 286,
+    "word": "sotto",
+    "turkishTranslation": "aşağıda"
+  },
+  {
+    "id": 287,
+    "rank": 287,
+    "word": "eh",
+    "turkishTranslation": "eh"
+  },
+  {
+    "id": 288,
+    "rank": 288,
+    "word": "suoi",
+    "turkishTranslation": "onun"
+  },
+  {
+    "id": 289,
+    "rank": 289,
+    "word": "vado",
+    "turkishTranslation": "gidiyorum"
+  },
+  {
+    "id": 290,
+    "rank": 290,
+    "word": "sara",
+    "turkishTranslation": "Sara"
+  },
+  {
+    "id": 291,
+    "rank": 291,
+    "word": "dato",
+    "turkishTranslation": "verildi"
+  },
+  {
+    "id": 292,
+    "rank": 292,
+    "word": "stiamo",
+    "turkishTranslation": "biz"
+  },
+  {
+    "id": 293,
+    "rank": 293,
+    "word": "bella",
+    "turkishTranslation": "güzel"
+  },
+  {
+    "id": 294,
+    "rank": 294,
+    "word": "scusa",
+    "turkishTranslation": "üzgünüm"
+  },
+  {
+    "id": 295,
+    "rank": 295,
+    "word": "erano",
+    "turkishTranslation": "onlar"
+  },
+  {
+    "id": 296,
+    "rank": 296,
+    "word": "pensavo",
+    "turkishTranslation": "düşündüm"
+  },
+  {
+    "id": 297,
+    "rank": 297,
+    "word": "avrei",
+    "turkishTranslation": "yapardım"
+  },
+  {
+    "id": 298,
+    "rank": 298,
+    "word": "prendere",
+    "turkishTranslation": "Al"
+  },
+  {
+    "id": 299,
+    "rank": 299,
+    "word": "buona",
+    "turkishTranslation": "iyi"
+  },
+  {
+    "id": 300,
+    "rank": 300,
+    "word": "porta",
+    "turkishTranslation": "kapı"
+  },
+  {
+    "id": 301,
+    "rank": 301,
+    "word": "bello",
+    "turkishTranslation": "güzel"
+  },
+  {
+    "id": 302,
+    "rank": 302,
+    "word": "moglie",
+    "turkishTranslation": "eş"
+  },
+  {
+    "id": 303,
+    "rank": 303,
+    "word": "vorrei",
+    "turkishTranslation": "isterdim"
+  },
+  {
+    "id": 304,
+    "rank": 304,
+    "word": "storia",
+    "turkishTranslation": "tarih"
+  },
+  {
+    "id": 305,
+    "rank": 305,
+    "word": "succede",
+    "turkishTranslation": "olur"
+  },
+  {
+    "id": 306,
+    "rank": 306,
+    "word": "morto",
+    "turkishTranslation": "ölü"
+  },
+  {
+    "id": 307,
+    "rank": 307,
+    "word": "cercando",
+    "turkishTranslation": "bakıyor"
+  },
+  {
+    "id": 308,
+    "rank": 308,
+    "word": "dici",
+    "turkishTranslation": "diyorsun"
+  },
+  {
+    "id": 309,
+    "rank": 309,
+    "word": "persona",
+    "turkishTranslation": "kişi"
+  },
+  {
+    "id": 310,
+    "rank": 310,
+    "word": "pronto",
+    "turkishTranslation": "hazır"
+  },
+  {
+    "id": 311,
+    "rank": 311,
+    "word": "meno",
+    "turkishTranslation": "daha az"
+  },
+  {
+    "id": 312,
+    "rank": 312,
+    "word": "dovuto",
+    "turkishTranslation": "vadesi gelmiş"
+  },
+  {
+    "id": 313,
+    "rank": 313,
+    "word": "avanti",
+    "turkishTranslation": "ileri"
+  },
+  {
+    "id": 314,
+    "rank": 314,
+    "word": "capisco",
+    "turkishTranslation": "anlıyorum"
+  },
+  {
+    "id": 315,
+    "rank": 315,
+    "word": "secondo",
+    "turkishTranslation": "ikinci"
+  },
+  {
+    "id": 316,
+    "rank": 316,
+    "word": "venire",
+    "turkishTranslation": "gel"
+  },
+  {
+    "id": 317,
+    "rank": 317,
+    "word": "polizia",
+    "turkishTranslation": "polis"
+  },
+  {
+    "id": 318,
+    "rank": 318,
+    "word": "lì",
+    "turkishTranslation": "orada"
+  },
+  {
+    "id": 319,
+    "rank": 319,
+    "word": "avrebbe",
+    "turkishTranslation": "olurdu"
+  },
+  {
+    "id": 320,
+    "rank": 320,
+    "word": "stanno",
+    "turkishTranslation": "onlar"
+  },
+  {
+    "id": 321,
+    "rank": 321,
+    "word": "mentre",
+    "turkishTranslation": "süre"
+  },
+  {
+    "id": 322,
+    "rank": 322,
+    "word": "letto",
+    "turkishTranslation": "yatak"
+  },
+  {
+    "id": 323,
+    "rank": 323,
+    "word": "fino",
+    "turkishTranslation": "yukarı"
+  },
+  {
+    "id": 324,
+    "rank": 324,
+    "word": "dico",
+    "turkishTranslation": "Diyorum ki"
+  },
+  {
+    "id": 325,
+    "rank": 325,
+    "word": "amici",
+    "turkishTranslation": "arkadaşlar"
+  },
+  {
+    "id": 326,
+    "rank": 326,
+    "word": "fine",
+    "turkishTranslation": "son"
+  },
+  {
+    "id": 327,
+    "rank": 327,
+    "word": "aiuto",
+    "turkishTranslation": "yardım"
+  },
+  {
+    "id": 328,
+    "rank": 328,
+    "word": "paura",
+    "turkishTranslation": "korku"
+  },
+  {
+    "id": 329,
+    "rank": 329,
+    "word": "fratello",
+    "turkishTranslation": "erkek kardeş"
+  },
+  {
+    "id": 330,
+    "rank": 330,
+    "word": "stavo",
+    "turkishTranslation": "ben"
+  },
+  {
+    "id": 331,
+    "rank": 331,
+    "word": "uomini",
+    "turkishTranslation": "erkekler"
+  },
+  {
+    "id": 332,
+    "rank": 332,
+    "word": "domani",
+    "turkishTranslation": "yarın"
+  },
+  {
+    "id": 333,
+    "rank": 333,
+    "word": "facciamo",
+    "turkishTranslation": "hadi yapalım"
+  },
+  {
+    "id": 334,
+    "rank": 334,
+    "word": "abbastanza",
+    "turkishTranslation": "yeterli"
+  },
+  {
+    "id": 335,
+    "rank": 335,
+    "word": "capo",
+    "turkishTranslation": "patron"
+  },
+  {
+    "id": 336,
+    "rank": 336,
+    "word": "amore",
+    "turkishTranslation": "aşk"
+  },
+  {
+    "id": 337,
+    "rank": 337,
+    "word": "nei",
+    "turkishTranslation": "içinde"
+  },
+  {
+    "id": 338,
+    "rank": 338,
+    "word": "ucciso",
+    "turkishTranslation": "öldürüldü"
+  },
+  {
+    "id": 339,
+    "rank": 339,
+    "word": "state",
+    "turkishTranslation": "kalmak"
+  },
+  {
+    "id": 340,
+    "rank": 340,
+    "word": "piano",
+    "turkishTranslation": "planı"
+  },
+  {
+    "id": 341,
+    "rank": 341,
+    "word": "macchina",
+    "turkishTranslation": "makine"
+  },
+  {
+    "id": 342,
+    "rank": 342,
+    "word": "trovare",
+    "turkishTranslation": "Bul"
+  },
+  {
+    "id": 343,
+    "rank": 343,
+    "word": "comunque",
+    "turkishTranslation": "neyse"
+  },
+  {
+    "id": 344,
+    "rank": 344,
+    "word": "vediamo",
+    "turkishTranslation": "hadi görelim"
+  },
+  {
+    "id": 345,
+    "rank": 345,
+    "word": "giorni",
+    "turkishTranslation": "günler"
+  },
+  {
+    "id": 346,
+    "rank": 346,
+    "word": "nemmeno",
+    "turkishTranslation": "bile"
+  },
+  {
+    "id": 347,
+    "rank": 347,
+    "word": "mano",
+    "turkishTranslation": "el"
+  },
+  {
+    "id": 348,
+    "rank": 348,
+    "word": "presto",
+    "turkishTranslation": "yakında"
+  },
+  {
+    "id": 349,
+    "rank": 349,
+    "word": "stati",
+    "turkishTranslation": "eyaletler"
+  },
+  {
+    "id": 350,
+    "rank": 350,
+    "word": "merda",
+    "turkishTranslation": "bok"
+  },
+  {
+    "id": 351,
+    "rank": 351,
+    "word": "far",
+    "turkishTranslation": "yap"
+  },
+  {
+    "id": 352,
+    "rank": 352,
+    "word": "bambino",
+    "turkishTranslation": "çocuk"
+  },
+  {
+    "id": 353,
+    "rank": 353,
+    "word": "andato",
+    "turkishTranslation": "gitti"
+  },
+  {
+    "id": 354,
+    "rank": 354,
+    "word": "vedo",
+    "turkishTranslation": "görüyorum"
+  },
+  {
+    "id": 355,
+    "rank": 355,
+    "word": "tornare",
+    "turkishTranslation": "geri dön"
+  },
+  {
+    "id": 356,
+    "rank": 356,
+    "word": "quelle",
+    "turkishTranslation": "bunlar"
+  },
+  {
+    "id": 357,
+    "rank": 357,
+    "word": "cio",
+    "turkishTranslation": "yani"
+  },
+  {
+    "id": 358,
+    "rank": 358,
+    "word": "primo",
+    "turkishTranslation": "ilk"
+  },
+  {
+    "id": 359,
+    "rank": 359,
+    "word": "vostro",
+    "turkishTranslation": "senin"
+  },
+  {
+    "id": 360,
+    "rank": 360,
+    "word": "neanche",
+    "turkishTranslation": "bile"
+  },
+  {
+    "id": 361,
+    "rank": 361,
+    "word": "sera",
+    "turkishTranslation": "akşam"
+  },
+  {
+    "id": 362,
+    "rank": 362,
+    "word": "giro",
+    "turkishTranslation": "tur"
+  },
+  {
+    "id": 363,
+    "rank": 363,
+    "word": "morte",
+    "turkishTranslation": "ölüm"
+  },
+  {
+    "id": 364,
+    "rank": 364,
+    "word": "qua",
+    "turkishTranslation": "burada"
+  },
+  {
+    "id": 365,
+    "rank": 365,
+    "word": "pensato",
+    "turkishTranslation": "düşünce"
+  },
+  {
+    "id": 366,
+    "rank": 366,
+    "word": "buon",
+    "turkishTranslation": "iyi"
+  },
+  {
+    "id": 367,
+    "rank": 367,
+    "word": "anno",
+    "turkishTranslation": "yıl"
+  },
+  {
+    "id": 368,
+    "rank": 368,
+    "word": "mie",
+    "turkishTranslation": "benim"
+  },
+  {
+    "id": 369,
+    "rank": 369,
+    "word": "diavolo",
+    "turkishTranslation": "şeytan"
+  },
+  {
+    "id": 370,
+    "rank": 370,
+    "word": "quasi",
+    "turkishTranslation": "neredeyse"
+  },
+  {
+    "id": 371,
+    "rank": 371,
+    "word": "piacere",
+    "turkishTranslation": "zevk"
+  },
+  {
+    "id": 372,
+    "rank": 372,
+    "word": "bel",
+    "turkishTranslation": "güzel"
+  },
+  {
+    "id": 373,
+    "rank": 373,
+    "word": "dovrei",
+    "turkishTranslation": "yapmalıyım"
+  },
+  {
+    "id": 374,
+    "rank": 374,
+    "word": "nessun",
+    "turkishTranslation": "hiçbiri"
+  },
+  {
+    "id": 375,
+    "rank": 375,
+    "word": "contro",
+    "turkishTranslation": "karşı"
+  },
+  {
+    "id": 376,
+    "rank": 376,
+    "word": "stessa",
+    "turkishTranslation": "kendisi"
+  },
+  {
+    "id": 377,
+    "rank": 377,
+    "word": "felice",
+    "turkishTranslation": "mutlu"
+  },
+  {
+    "id": 378,
+    "rank": 378,
+    "word": "colpa",
+    "turkishTranslation": "suçluluk"
+  },
+  {
+    "id": 379,
+    "rank": 379,
+    "word": "punto",
+    "turkishTranslation": "nokta"
+  },
+  {
+    "id": 380,
+    "rank": 380,
+    "word": "andata",
+    "turkishTranslation": "gitti"
+  },
+  {
+    "id": 381,
+    "rank": 381,
+    "word": "dovrebbe",
+    "turkishTranslation": "yapmalı"
+  },
+  {
+    "id": 382,
+    "rank": 382,
+    "word": "vedi",
+    "turkishTranslation": "görüyorsun"
+  },
+  {
+    "id": 383,
+    "rank": 383,
+    "word": "quale",
+    "turkishTranslation": "hangisi"
+  },
+  {
+    "id": 384,
+    "rank": 384,
+    "word": "chiesto",
+    "turkishTranslation": "sordu"
+  },
+  {
+    "id": 385,
+    "rank": 385,
+    "word": "invece",
+    "turkishTranslation": "bunun yerine"
+  },
+  {
+    "id": 386,
+    "rank": 386,
+    "word": "perchè",
+    "turkishTranslation": "neden"
+  },
+  {
+    "id": 387,
+    "rank": 387,
+    "word": "migliore",
+    "turkishTranslation": "daha iyi"
+  },
+  {
+    "id": 388,
+    "rank": 388,
+    "word": "nostri",
+    "turkishTranslation": "bizim"
+  },
+  {
+    "id": 389,
+    "rank": 389,
+    "word": "finito",
+    "turkishTranslation": "bitti"
+  },
+  {
+    "id": 390,
+    "rank": 390,
+    "word": "figlia",
+    "turkishTranslation": "kızı"
+  },
+  {
+    "id": 391,
+    "rank": 391,
+    "word": "dovresti",
+    "turkishTranslation": "yapmalısın"
+  },
+  {
+    "id": 392,
+    "rank": 392,
+    "word": "papa",
+    "turkishTranslation": "baba"
+  },
+  {
+    "id": 393,
+    "rank": 393,
+    "word": "almeno",
+    "turkishTranslation": "en azından"
+  },
+  {
+    "id": 394,
+    "rank": 394,
+    "word": "sento",
+    "turkishTranslation": "hissediyorum"
+  },
+  {
+    "id": 395,
+    "rank": 395,
+    "word": "quei",
+    "turkishTranslation": "bunlar"
+  },
+  {
+    "id": 396,
+    "rank": 396,
+    "word": "col",
+    "turkishTranslation": "sütun"
+  },
+  {
+    "id": 397,
+    "rank": 397,
+    "word": "ore",
+    "turkishTranslation": "saat"
+  },
+  {
+    "id": 398,
+    "rank": 398,
+    "word": "passato",
+    "turkishTranslation": "geçmiş"
+  },
+  {
+    "id": 399,
+    "rank": 399,
+    "word": "magari",
+    "turkishTranslation": "belki"
+  },
+  {
+    "id": 400,
+    "rank": 400,
+    "word": "minuti",
+    "turkishTranslation": "dakika"
+  },
+  {
+    "id": 401,
+    "rank": 401,
+    "word": "terra",
+    "turkishTranslation": "toprak"
+  },
+  {
+    "id": 402,
+    "rank": 402,
+    "word": "vostra",
+    "turkishTranslation": "senin"
+  },
+  {
+    "id": 403,
+    "rank": 403,
+    "word": "strada",
+    "turkishTranslation": "yol"
+  },
+  {
+    "id": 404,
+    "rank": 404,
+    "word": "sola",
+    "turkishTranslation": "yalnız"
+  },
+  {
+    "id": 405,
+    "rank": 405,
+    "word": "credi",
+    "turkishTranslation": "inanmak"
+  },
+  {
+    "id": 406,
+    "rank": 406,
+    "word": "importante",
+    "turkishTranslation": "önemli"
+  },
+  {
+    "id": 407,
+    "rank": 407,
+    "word": "sue",
+    "turkishTranslation": "onun"
+  },
+  {
+    "id": 408,
+    "rank": 408,
+    "word": "salve",
+    "turkishTranslation": "merhaba"
+  },
+  {
+    "id": 409,
+    "rank": 409,
+    "word": "settimana",
+    "turkishTranslation": "hafta"
+  },
+  {
+    "id": 410,
+    "rank": 410,
+    "word": "perso",
+    "turkishTranslation": "kayıp"
+  },
+  {
+    "id": 411,
+    "rank": 411,
+    "word": "uscire",
+    "turkishTranslation": "dışarı çıkmak"
+  },
+  {
+    "id": 412,
+    "rank": 412,
+    "word": "parlato",
+    "turkishTranslation": "konuşulan"
+  },
+  {
+    "id": 413,
+    "rank": 413,
+    "word": "papà",
+    "turkishTranslation": "baba"
+  },
+  {
+    "id": 414,
+    "rank": 414,
+    "word": "stasera",
+    "turkishTranslation": "bu gece"
+  },
+  {
+    "id": 415,
+    "rank": 415,
+    "word": "scusi",
+    "turkishTranslation": "üzgünüm"
+  },
+  {
+    "id": 416,
+    "rank": 416,
+    "word": "dollari",
+    "turkishTranslation": "dolar"
+  },
+  {
+    "id": 417,
+    "rank": 417,
+    "word": "occhi",
+    "turkishTranslation": "gözler"
+  },
+  {
+    "id": 418,
+    "rank": 418,
+    "word": "mani",
+    "turkishTranslation": "eller"
+  },
+  {
+    "id": 419,
+    "rank": 419,
+    "word": "ultima",
+    "turkishTranslation": "son"
+  },
+  {
+    "id": 420,
+    "rank": 420,
+    "word": "possibile",
+    "turkishTranslation": "mümkün"
+  },
+  {
+    "id": 421,
+    "rank": 421,
+    "word": "scuola",
+    "turkishTranslation": "okul"
+  },
+  {
+    "id": 422,
+    "rank": 422,
+    "word": "significa",
+    "turkishTranslation": "anlamına gelir"
+  },
+  {
+    "id": 423,
+    "rank": 423,
+    "word": "sapevo",
+    "turkishTranslation": "biliyordum"
+  },
+  {
+    "id": 424,
+    "rank": 424,
+    "word": "nelle",
+    "turkishTranslation": "içinde"
+  },
+  {
+    "id": 425,
+    "rank": 425,
+    "word": "potrei",
+    "turkishTranslation": "Yapabilirim"
+  },
+  {
+    "id": 426,
+    "rank": 426,
+    "word": "stava",
+    "turkishTranslation": "öyleydi"
+  },
+  {
+    "id": 427,
+    "rank": 427,
+    "word": "bambini",
+    "turkishTranslation": "çocuklar"
+  },
+  {
+    "id": 428,
+    "rank": 428,
+    "word": "eri",
+    "turkishTranslation": "sen"
+  },
+  {
+    "id": 429,
+    "rank": 429,
+    "word": "importa",
+    "turkishTranslation": "önemli"
+  },
+  {
+    "id": 430,
+    "rank": 430,
+    "word": "indietro",
+    "turkishTranslation": "geri"
+  },
+  {
+    "id": 431,
+    "rank": 431,
+    "word": "riesco",
+    "turkishTranslation": "Yapabilirim"
+  },
+  {
+    "id": 432,
+    "rank": 432,
+    "word": "sangue",
+    "turkishTranslation": "kan"
+  },
+  {
+    "id": 433,
+    "rank": 433,
+    "word": "chiama",
+    "turkishTranslation": "çağrı"
+  },
+  {
+    "id": 434,
+    "rank": 434,
+    "word": "messo",
+    "turkishTranslation": "koymak"
+  },
+  {
+    "id": 435,
+    "rank": 435,
+    "word": "piccolo",
+    "turkishTranslation": "küçük"
+  },
+  {
+    "id": 436,
+    "rank": 436,
+    "word": "traduzione",
+    "turkishTranslation": "çeviri"
+  },
+  {
+    "id": 437,
+    "rank": 437,
+    "word": "tardi",
+    "turkishTranslation": "geç"
+  },
+  {
+    "id": 438,
+    "rank": 438,
+    "word": "cuore",
+    "turkishTranslation": "kalp"
+  },
+  {
+    "id": 439,
+    "rank": 439,
+    "word": "marito",
+    "turkishTranslation": "koca"
+  },
+  {
+    "id": 440,
+    "rank": 440,
+    "word": "viene",
+    "turkishTranslation": "gelir"
+  },
+  {
+    "id": 441,
+    "rank": 441,
+    "word": "venuto",
+    "turkishTranslation": "geldi"
+  },
+  {
+    "id": 442,
+    "rank": 442,
+    "word": "ieri",
+    "turkishTranslation": "dün"
+  },
+  {
+    "id": 443,
+    "rank": 443,
+    "word": "spero",
+    "turkishTranslation": "umarım"
+  },
+  {
+    "id": 444,
+    "rank": 444,
+    "word": "ricordi",
+    "turkishTranslation": "anılar"
+  },
+  {
+    "id": 445,
+    "rank": 445,
+    "word": "quelli",
+    "turkishTranslation": "bunlar"
+  },
+  {
+    "id": 446,
+    "rank": 446,
+    "word": "dovremmo",
+    "turkishTranslation": "yapmalıyız"
+  },
+  {
+    "id": 447,
+    "rank": 447,
+    "word": "lasciato",
+    "turkishTranslation": "sol"
+  },
+  {
+    "id": 448,
+    "rank": 448,
+    "word": "ascolta",
+    "turkishTranslation": "dinle"
+  },
+  {
+    "id": 449,
+    "rank": 449,
+    "word": "difficile",
+    "turkishTranslation": "zor"
+  },
+  {
+    "id": 450,
+    "rank": 450,
+    "word": "auto",
+    "turkishTranslation": "araba"
+  },
+  {
+    "id": 451,
+    "rank": 451,
+    "word": "chiamato",
+    "turkishTranslation": "aradı"
+  },
+  {
+    "id": 452,
+    "rank": 452,
+    "word": "ciò",
+    "turkishTranslation": "bu"
+  },
+  {
+    "id": 453,
+    "rank": 453,
+    "word": "altre",
+    "turkishTranslation": "diğerleri"
+  },
+  {
+    "id": 454,
+    "rank": 454,
+    "word": "parlando",
+    "turkishTranslation": "konuşma"
+  },
+  {
+    "id": 455,
+    "rank": 455,
+    "word": "pensare",
+    "turkishTranslation": "düşünmek"
+  },
+  {
+    "id": 456,
+    "rank": 456,
+    "word": "fantastico",
+    "turkishTranslation": "fantastik"
+  },
+  {
+    "id": 457,
+    "rank": 457,
+    "word": "fatta",
+    "turkishTranslation": "bitti"
+  },
+  {
+    "id": 458,
+    "rank": 458,
+    "word": "numero",
+    "turkishTranslation": "sayı"
+  },
+  {
+    "id": 459,
+    "rank": 459,
+    "word": "veramente",
+    "turkishTranslation": "gerçekten"
+  },
+  {
+    "id": 460,
+    "rank": 460,
+    "word": "fanno",
+    "turkishTranslation": "onlar yaparlar"
+  },
+  {
+    "id": 461,
+    "rank": 461,
+    "word": "serio",
+    "turkishTranslation": "ciddi"
+  },
+  {
+    "id": 462,
+    "rank": 462,
+    "word": "possa",
+    "turkishTranslation": "yapabilir"
+  },
+  {
+    "id": 463,
+    "rank": 463,
+    "word": "fossi",
+    "turkishTranslation": "ben"
+  },
+  {
+    "id": 464,
+    "rank": 464,
+    "word": "entrare",
+    "turkishTranslation": "girmek"
+  },
+  {
+    "id": 465,
+    "rank": 465,
+    "word": "qualsiasi",
+    "turkishTranslation": "herhangi biri"
+  },
+  {
+    "id": 466,
+    "rank": 466,
+    "word": "pensa",
+    "turkishTranslation": "düşünmek"
+  },
+  {
+    "id": 467,
+    "rank": 467,
+    "word": "dicendo",
+    "turkishTranslation": "söyleyerek"
+  },
+  {
+    "id": 468,
+    "rank": 468,
+    "word": "acqua",
+    "turkishTranslation": "su"
+  },
+  {
+    "id": 469,
+    "rank": 469,
+    "word": "portato",
+    "turkishTranslation": "getirdi"
+  },
+  {
+    "id": 470,
+    "rank": 470,
+    "word": "stanza",
+    "turkishTranslation": "oda"
+  },
+  {
+    "id": 471,
+    "rank": 471,
+    "word": "problemi",
+    "turkishTranslation": "sorunlar"
+  },
+  {
+    "id": 472,
+    "rank": 472,
+    "word": "forte",
+    "turkishTranslation": "güçlü"
+  },
+  {
+    "id": 473,
+    "rank": 473,
+    "word": "nessuna",
+    "turkishTranslation": "hiçbiri"
+  },
+  {
+    "id": 474,
+    "rank": 474,
+    "word": "lascia",
+    "turkishTranslation": "ayrılmak"
+  },
+  {
+    "id": 475,
+    "rank": 475,
+    "word": "amo",
+    "turkishTranslation": "seviyorum"
+  },
+  {
+    "id": 476,
+    "rank": 476,
+    "word": "roba",
+    "turkishTranslation": "şeyler"
+  },
+  {
+    "id": 477,
+    "rank": 477,
+    "word": "agente",
+    "turkishTranslation": "ajan"
+  },
+  {
+    "id": 478,
+    "rank": 478,
+    "word": "dietro",
+    "turkishTranslation": "arkasında"
+  },
+  {
+    "id": 479,
+    "rank": 479,
+    "word": "corpo",
+    "turkishTranslation": "vücut"
+  },
+  {
+    "id": 480,
+    "rank": 480,
+    "word": "pare",
+    "turkishTranslation": "öyle görünüyor"
+  },
+  {
+    "id": 481,
+    "rank": 481,
+    "word": "sentire",
+    "turkishTranslation": "hissetmek"
+  },
+  {
+    "id": 482,
+    "rank": 482,
+    "word": "foto",
+    "turkishTranslation": "fotoğraf"
+  },
+  {
+    "id": 483,
+    "rank": 483,
+    "word": "telefono",
+    "turkishTranslation": "telefon"
+  },
+  {
+    "id": 484,
+    "rank": 484,
+    "word": "voleva",
+    "turkishTranslation": "aranıyor"
+  },
+  {
+    "id": 485,
+    "rank": 485,
+    "word": "poco",
+    "turkishTranslation": "küçük"
+  },
+  {
+    "id": 486,
+    "rank": 486,
+    "word": "prendi",
+    "turkishTranslation": "Al"
+  },
+  {
+    "id": 487,
+    "rank": 487,
+    "word": "piccola",
+    "turkishTranslation": "küçük"
+  },
+  {
+    "id": 488,
+    "rank": 488,
+    "word": "vicino",
+    "turkishTranslation": "kapat"
+  },
+  {
+    "id": 489,
+    "rank": 489,
+    "word": "sacco",
+    "turkishTranslation": "çok"
+  },
+  {
+    "id": 490,
+    "rank": 490,
+    "word": "stia",
+    "turkishTranslation": "kalmak"
+  },
+  {
+    "id": 491,
+    "rank": 491,
+    "word": "capire",
+    "turkishTranslation": "anlamak"
+  },
+  {
+    "id": 492,
+    "rank": 492,
+    "word": "potuto",
+    "turkishTranslation": "olabilir"
+  },
+  {
+    "id": 493,
+    "rank": 493,
+    "word": "cinque",
+    "turkishTranslation": "beş"
+  },
+  {
+    "id": 494,
+    "rank": 494,
+    "word": "strano",
+    "turkishTranslation": "garip"
+  },
+  {
+    "id": 495,
+    "rank": 495,
+    "word": "tue",
+    "turkishTranslation": "senin"
+  },
+  {
+    "id": 496,
+    "rank": 496,
+    "word": "andando",
+    "turkishTranslation": "gidiyor"
+  },
+  {
+    "id": 497,
+    "rank": 497,
+    "word": "donne",
+    "turkishTranslation": "kadınlar"
+  },
+  {
+    "id": 498,
+    "rank": 498,
+    "word": "sappiamo",
+    "turkishTranslation": "biliyoruz"
+  },
+  {
+    "id": 499,
+    "rank": 499,
+    "word": "bravo",
+    "turkishTranslation": "iyi"
+  },
+  {
+    "id": 500,
+    "rank": 500,
+    "word": "ragazze",
+    "turkishTranslation": "kızlar"
+  },
+  {
+    "id": 501,
+    "rank": 501,
+    "word": "festa",
+    "turkishTranslation": "parti"
+  },
+  {
+    "id": 502,
+    "rank": 502,
+    "word": "senso",
+    "turkishTranslation": "Anlam"
+  },
+  {
+    "id": 503,
+    "rank": 503,
+    "word": "genere",
+    "turkishTranslation": "tür"
+  },
+  {
+    "id": 504,
+    "rank": 504,
+    "word": "quattro",
+    "turkishTranslation": "dört"
+  },
+  {
+    "id": 505,
+    "rank": 505,
+    "word": "dare",
+    "turkishTranslation": "vermek"
+  },
+  {
+    "id": 506,
+    "rank": 506,
+    "word": "attimo",
+    "turkishTranslation": "an"
+  },
+  {
+    "id": 507,
+    "rank": 507,
+    "word": "sorella",
+    "turkishTranslation": "kız kardeş"
+  },
+  {
+    "id": 508,
+    "rank": 508,
+    "word": "pure",
+    "turkishTranslation": "aynı zamanda"
+  },
+  {
+    "id": 509,
+    "rank": 509,
+    "word": "probabilmente",
+    "turkishTranslation": "muhtemelen"
+  },
+  {
+    "id": 510,
+    "rank": 510,
+    "word": "film",
+    "turkishTranslation": "film"
+  },
+  {
+    "id": 511,
+    "rank": 511,
+    "word": "parla",
+    "turkishTranslation": "konuş"
+  },
+  {
+    "id": 512,
+    "rank": 512,
+    "word": "ufficio",
+    "turkishTranslation": "ofis"
+  },
+  {
+    "id": 513,
+    "rank": 513,
+    "word": "verso",
+    "turkishTranslation": "ayet"
+  },
+  {
+    "id": 514,
+    "rank": 514,
+    "word": "mesi",
+    "turkishTranslation": "aylar"
+  },
+  {
+    "id": 515,
+    "rank": 515,
+    "word": "farti",
+    "turkishTranslation": "seni yapmak"
+  },
+  {
+    "id": 516,
+    "rank": 516,
+    "word": "unica",
+    "turkishTranslation": "benzersiz"
+  },
+  {
+    "id": 517,
+    "rank": 517,
+    "word": "morire",
+    "turkishTranslation": "ölmek"
+  },
+  {
+    "id": 518,
+    "rank": 518,
+    "word": "signorina",
+    "turkishTranslation": "bayan"
+  },
+  {
+    "id": 519,
+    "rank": 519,
+    "word": "vecchio",
+    "turkishTranslation": "eski"
+  },
+  {
+    "id": 520,
+    "rank": 520,
+    "word": "domanda",
+    "turkishTranslation": "soru"
+  },
+  {
+    "id": 521,
+    "rank": 521,
+    "word": "ben",
+    "turkishTranslation": "peki"
+  },
+  {
+    "id": 522,
+    "rank": 522,
+    "word": "guerra",
+    "turkishTranslation": "savaş"
+  },
+  {
+    "id": 523,
+    "rank": 523,
+    "word": "dottore",
+    "turkishTranslation": "doktor"
+  },
+  {
+    "id": 524,
+    "rank": 524,
+    "word": "conosco",
+    "turkishTranslation": "biliyorum"
+  },
+  {
+    "id": 525,
+    "rank": 525,
+    "word": "qual",
+    "turkishTranslation": "nitelikli"
+  },
+  {
+    "id": 526,
+    "rank": 526,
+    "word": "vivere",
+    "turkishTranslation": "canlı"
+  },
+  {
+    "id": 527,
+    "rank": 527,
+    "word": "vista",
+    "turkishTranslation": "görünüm"
+  },
+  {
+    "id": 528,
+    "rank": 528,
+    "word": "prova",
+    "turkishTranslation": "denemek"
+  },
+  {
+    "id": 529,
+    "rank": 529,
+    "word": "nuova",
+    "turkishTranslation": "yeni"
+  },
+  {
+    "id": 530,
+    "rank": 530,
+    "word": "ricordo",
+    "turkishTranslation": "Hatırlıyorum"
+  },
+  {
+    "id": 531,
+    "rank": 531,
+    "word": "divertente",
+    "turkishTranslation": "komik"
+  },
+  {
+    "id": 532,
+    "rank": 532,
+    "word": "avessi",
+    "turkishTranslation": "bende vardı"
+  },
+  {
+    "id": 533,
+    "rank": 533,
+    "word": "sicura",
+    "turkishTranslation": "güvenli"
+  },
+  {
+    "id": 534,
+    "rank": 534,
+    "word": "paio",
+    "turkishTranslation": "çift"
+  },
+  {
+    "id": 535,
+    "rank": 535,
+    "word": "conto",
+    "turkishTranslation": "hesap"
+  },
+  {
+    "id": 536,
+    "rank": 536,
+    "word": "perdere",
+    "turkishTranslation": "kaybetmek"
+  },
+  {
+    "id": 537,
+    "rank": 537,
+    "word": "dimmi",
+    "turkishTranslation": "söyle bana"
+  },
+  {
+    "id": 538,
+    "rank": 538,
+    "word": "farmi",
+    "turkishTranslation": "yap beni"
+  },
+  {
+    "id": 539,
+    "rank": 539,
+    "word": "figli",
+    "turkishTranslation": "çocuklar"
+  },
+  {
+    "id": 540,
+    "rank": 540,
+    "word": "mezzo",
+    "turkishTranslation": "yarım"
+  },
+  {
+    "id": 541,
+    "rank": 541,
+    "word": "lavorare",
+    "turkishTranslation": "iş"
+  },
+  {
+    "id": 542,
+    "rank": 542,
+    "word": "unico",
+    "turkishTranslation": "benzersiz"
+  },
+  {
+    "id": 543,
+    "rank": 543,
+    "word": "esattamente",
+    "turkishTranslation": "kesinlikle"
+  },
+  {
+    "id": 544,
+    "rank": 544,
+    "word": "squadra",
+    "turkishTranslation": "takım"
+  },
+  {
+    "id": 545,
+    "rank": 545,
+    "word": "esatto",
+    "turkishTranslation": "kesinlikle"
+  },
+  {
+    "id": 546,
+    "rank": 546,
+    "word": "possono",
+    "turkishTranslation": "yapabilirler"
+  },
+  {
+    "id": 547,
+    "rank": 547,
+    "word": "fate",
+    "turkishTranslation": "yap"
+  },
+  {
+    "id": 548,
+    "rank": 548,
+    "word": "faro",
+    "turkishTranslation": "deniz feneri"
+  },
+  {
+    "id": 549,
+    "rank": 549,
+    "word": "sapete",
+    "turkishTranslation": "biliyorsun"
+  },
+  {
+    "id": 550,
+    "rank": 550,
+    "word": "dottor",
+    "turkishTranslation": "Dr."
+  },
+  {
+    "id": 551,
+    "rank": 551,
+    "word": "parola",
+    "turkishTranslation": "kelime"
+  },
+  {
+    "id": 552,
+    "rank": 552,
+    "word": "piedi",
+    "turkishTranslation": "ayaklar"
+  },
+  {
+    "id": 553,
+    "rank": 553,
+    "word": "sopra",
+    "turkishTranslation": "yukarıda"
+  },
+  {
+    "id": 554,
+    "rank": 554,
+    "word": "motivo",
+    "turkishTranslation": "sebep"
+  },
+  {
+    "id": 555,
+    "rank": 555,
+    "word": "avevi",
+    "turkishTranslation": "sen vardı"
+  },
+  {
+    "id": 556,
+    "rank": 556,
+    "word": "cavolo",
+    "turkishTranslation": "kahretsin"
+  },
+  {
+    "id": 557,
+    "rank": 557,
+    "word": "capitano",
+    "turkishTranslation": "kaptan"
+  },
+  {
+    "id": 558,
+    "rank": 558,
+    "word": "finita",
+    "turkishTranslation": "bitti"
+  },
+  {
+    "id": 559,
+    "rank": 559,
+    "word": "volete",
+    "turkishTranslation": "istiyorsun"
+  },
+  {
+    "id": 560,
+    "rank": 560,
+    "word": "siano",
+    "turkishTranslation": "onlar"
+  },
+  {
+    "id": 561,
+    "rank": 561,
+    "word": "potresti",
+    "turkishTranslation": "yapabilirsin"
+  },
+  {
+    "id": 562,
+    "rank": 562,
+    "word": "gioco",
+    "turkishTranslation": "oyun"
+  },
+  {
+    "id": 563,
+    "rank": 563,
+    "word": "perfetto",
+    "turkishTranslation": "mükemmel"
+  },
+  {
+    "id": 564,
+    "rank": 564,
+    "word": "be",
+    "turkishTranslation": "peki"
+  },
+  {
+    "id": 565,
+    "rank": 565,
+    "word": "mente",
+    "turkishTranslation": "zihin"
+  },
+  {
+    "id": 566,
+    "rank": 566,
+    "word": "mangiare",
+    "turkishTranslation": "yemek"
+  },
+  {
+    "id": 567,
+    "rank": 567,
+    "word": "resto",
+    "turkishTranslation": "dinlenme"
+  },
+  {
+    "id": 568,
+    "rank": 568,
+    "word": "credere",
+    "turkishTranslation": "inanmak"
+  },
+  {
+    "id": 569,
+    "rank": 569,
+    "word": "fortuna",
+    "turkishTranslation": "şans"
+  },
+  {
+    "id": 570,
+    "rank": 570,
+    "word": "tratta",
+    "turkishTranslation": "anlaşma"
+  },
+  {
+    "id": 571,
+    "rank": 571,
+    "word": "chiamo",
+    "turkishTranslation": "arayacağım"
+  },
+  {
+    "id": 572,
+    "rank": 572,
+    "word": "morta",
+    "turkishTranslation": "ölü"
+  },
+  {
+    "id": 573,
+    "rank": 573,
+    "word": "là",
+    "turkishTranslation": "orada"
+  },
+  {
+    "id": 574,
+    "rank": 574,
+    "word": "entrambi",
+    "turkishTranslation": "ikisi de"
+  },
+  {
+    "id": 575,
+    "rank": 575,
+    "word": "avresti",
+    "turkishTranslation": "sen olurdun"
+  },
+  {
+    "id": 576,
+    "rank": 576,
+    "word": "passare",
+    "turkishTranslation": "geçmek"
+  },
+  {
+    "id": 577,
+    "rank": 577,
+    "word": "cena",
+    "turkishTranslation": "akşam yemeği"
+  },
+  {
+    "id": 578,
+    "rank": 578,
+    "word": "the",
+    "turkishTranslation": "the"
+  },
+  {
+    "id": 579,
+    "rank": 579,
+    "word": "sarei",
+    "turkishTranslation": "ben olurdum"
+  },
+  {
+    "id": 580,
+    "rank": 580,
+    "word": "controllo",
+    "turkishTranslation": "kontrol"
+  },
+  {
+    "id": 581,
+    "rank": 581,
+    "word": "affari",
+    "turkishTranslation": "iş"
+  },
+  {
+    "id": 582,
+    "rank": 582,
+    "word": "spiace",
+    "turkishTranslation": "üzgünüm"
+  },
+  {
+    "id": 583,
+    "rank": 583,
+    "word": "ultimo",
+    "turkishTranslation": "son"
+  },
+  {
+    "id": 584,
+    "rank": 584,
+    "word": "facile",
+    "turkishTranslation": "kolay"
+  },
+  {
+    "id": 585,
+    "rank": 585,
+    "word": "farò",
+    "turkishTranslation": "yapacağım"
+  },
+  {
+    "id": 586,
+    "rank": 586,
+    "word": "buongiorno",
+    "turkishTranslation": "günaydın"
+  },
+  {
+    "id": 587,
+    "rank": 587,
+    "word": "davanti",
+    "turkishTranslation": "önde"
+  },
+  {
+    "id": 588,
+    "rank": 588,
+    "word": "tizio",
+    "turkishTranslation": "dostum"
+  },
+  {
+    "id": 589,
+    "rank": 589,
+    "word": "dammi",
+    "turkishTranslation": "ver bana"
+  },
+  {
+    "id": 590,
+    "rank": 590,
+    "word": "sicurezza",
+    "turkishTranslation": "güvenlik"
+  },
+  {
+    "id": 591,
+    "rank": 591,
+    "word": "dalle",
+    "turkishTranslation": "hadi"
+  },
+  {
+    "id": 592,
+    "rank": 592,
+    "word": "quanti",
+    "turkishTranslation": "kaç tane"
+  },
+  {
+    "id": 593,
+    "rank": 593,
+    "word": "dica",
+    "turkishTranslation": "demek"
+  },
+  {
+    "id": 594,
+    "rank": 594,
+    "word": "matrimonio",
+    "turkishTranslation": "düğün"
+  },
+  {
+    "id": 595,
+    "rank": 595,
+    "word": "john",
+    "turkishTranslation": "John"
+  },
+  {
+    "id": 596,
+    "rank": 596,
+    "word": "vogliono",
+    "turkishTranslation": "istiyorlar"
+  },
+  {
+    "id": 597,
+    "rank": 597,
+    "word": "molti",
+    "turkishTranslation": "birçok"
+  },
+  {
+    "id": 598,
+    "rank": 598,
+    "word": "culo",
+    "turkishTranslation": "eşek"
+  },
+  {
+    "id": 599,
+    "rank": 599,
+    "word": "fuoco",
+    "turkishTranslation": "ateş"
+  },
+  {
+    "id": 600,
+    "rank": 600,
+    "word": "cercare",
+    "turkishTranslation": "arama"
+  },
+  {
+    "id": 601,
+    "rank": 601,
+    "word": "pistola",
+    "turkishTranslation": "silah"
+  },
+  {
+    "id": 602,
+    "rank": 602,
+    "word": "potremmo",
+    "turkishTranslation": "Yapabiliriz"
+  },
+  {
+    "id": 603,
+    "rank": 603,
+    "word": "re",
+    "turkishTranslation": "kral"
+  },
+  {
+    "id": 604,
+    "rank": 604,
+    "word": "mandato",
+    "turkishTranslation": "yetki"
+  },
+  {
+    "id": 605,
+    "rank": 605,
+    "word": "puttana",
+    "turkishTranslation": "fahişe"
+  },
+  {
+    "id": 606,
+    "rank": 606,
+    "word": "negli",
+    "turkishTranslation": "içinde"
+  },
+  {
+    "id": 607,
+    "rank": 607,
+    "word": "cioe",
+    "turkishTranslation": "yani"
+  },
+  {
+    "id": 608,
+    "rank": 608,
+    "word": "inizio",
+    "turkishTranslation": "başlangıç"
+  },
+  {
+    "id": 609,
+    "rank": 609,
+    "word": "saranno",
+    "turkishTranslation": "olacaklar"
+  },
+  {
+    "id": 610,
+    "rank": 610,
+    "word": "causa",
+    "turkishTranslation": "sebep"
+  },
+  {
+    "id": 611,
+    "rank": 611,
+    "word": "voglia",
+    "turkishTranslation": "arzu"
+  },
+  {
+    "id": 612,
+    "rank": 612,
+    "word": "mettere",
+    "turkishTranslation": "koymak"
+  },
+  {
+    "id": 613,
+    "rank": 613,
+    "word": "fammi",
+    "turkishTranslation": "yap beni"
+  },
+  {
+    "id": 614,
+    "rank": 614,
+    "word": "uccidere",
+    "turkishTranslation": "öldürmek"
+  },
+  {
+    "id": 615,
+    "rank": 615,
+    "word": "vogliamo",
+    "turkishTranslation": "biz istiyoruz"
+  },
+  {
+    "id": 616,
+    "rank": 616,
+    "word": "faremo",
+    "turkishTranslation": "yapacağız"
+  },
+  {
+    "id": 617,
+    "rank": 617,
+    "word": "però",
+    "turkishTranslation": "yine de"
+  },
+  {
+    "id": 618,
+    "rank": 618,
+    "word": "genitori",
+    "turkishTranslation": "ebeveynler"
+  },
+  {
+    "id": 619,
+    "rank": 619,
+    "word": "sesso",
+    "turkishTranslation": "seks"
+  },
+  {
+    "id": 620,
+    "rank": 620,
+    "word": "potete",
+    "turkishTranslation": "yapabilirsin"
+  },
+  {
+    "id": 621,
+    "rank": 621,
+    "word": "ricevuto",
+    "turkishTranslation": "alınan"
+  },
+  {
+    "id": 622,
+    "rank": 622,
+    "word": "vivo",
+    "turkishTranslation": "canlı"
+  },
+  {
+    "id": 623,
+    "rank": 623,
+    "word": "presidente",
+    "turkishTranslation": "başkan"
+  },
+  {
+    "id": 624,
+    "rank": 624,
+    "word": "città",
+    "turkishTranslation": "şehir"
+  },
+  {
+    "id": 625,
+    "rank": 625,
+    "word": "citta",
+    "turkishTranslation": "şehir"
+  },
+  {
+    "id": 626,
+    "rank": 626,
+    "word": "succedendo",
+    "turkishTranslation": "oluyor"
+  },
+  {
+    "id": 627,
+    "rank": 627,
+    "word": "ospedale",
+    "turkishTranslation": "hastane"
+  },
+  {
+    "id": 628,
+    "rank": 628,
+    "word": "fu",
+    "turkishTranslation": "öyleydi"
+  },
+  {
+    "id": 629,
+    "rank": 629,
+    "word": "agli",
+    "turkishTranslation": "için"
+  },
+  {
+    "id": 630,
+    "rank": 630,
+    "word": "scritto",
+    "turkishTranslation": "yazılı"
+  },
+  {
+    "id": 631,
+    "rank": 631,
+    "word": "smettila",
+    "turkishTranslation": "durdur şunu"
+  },
+  {
+    "id": 632,
+    "rank": 632,
+    "word": "vada",
+    "turkishTranslation": "git"
+  },
+  {
+    "id": 633,
+    "rank": 633,
+    "word": "attenzione",
+    "turkishTranslation": "dikkatli ol"
+  },
+  {
+    "id": 634,
+    "rank": 634,
+    "word": "sulle",
+    "turkishTranslation": "üzerinde"
+  },
+  {
+    "id": 635,
+    "rank": 635,
+    "word": "bere",
+    "turkishTranslation": "içki"
+  },
+  {
+    "id": 636,
+    "rank": 636,
+    "word": "situazione",
+    "turkishTranslation": "durum"
+  },
+  {
+    "id": 637,
+    "rank": 637,
+    "word": "omicidio",
+    "turkishTranslation": "cinayet"
+  },
+  {
+    "id": 638,
+    "rank": 638,
+    "word": "revisione",
+    "turkishTranslation": "gözden geçirmek"
+  },
+  {
+    "id": 639,
+    "rank": 639,
+    "word": "avesse",
+    "turkishTranslation": "vardı"
+  },
+  {
+    "id": 640,
+    "rank": 640,
+    "word": "ottimo",
+    "turkishTranslation": "mükemmel"
+  },
+  {
+    "id": 641,
+    "rank": 641,
+    "word": "cura",
+    "turkishTranslation": "bakım"
+  },
+  {
+    "id": 642,
+    "rank": 642,
+    "word": "durante",
+    "turkishTranslation": "sırasında"
+  },
+  {
+    "id": 643,
+    "rank": 643,
+    "word": "provato",
+    "turkishTranslation": "denedim"
+  },
+  {
+    "id": 644,
+    "rank": 644,
+    "word": "parole",
+    "turkishTranslation": "kelimeler"
+  },
+  {
+    "id": 645,
+    "rank": 645,
+    "word": "lasciare",
+    "turkishTranslation": "ayrılmak"
+  },
+  {
+    "id": 646,
+    "rank": 646,
+    "word": "dicono",
+    "turkishTranslation": "diyorlar"
+  },
+  {
+    "id": 647,
+    "rank": 647,
+    "word": "new",
+    "turkishTranslation": "yeni"
+  },
+  {
+    "id": 648,
+    "rank": 648,
+    "word": "prossima",
+    "turkishTranslation": "sonraki"
+  },
+  {
+    "id": 649,
+    "rank": 649,
+    "word": "nostre",
+    "turkishTranslation": "bizim"
+  },
+  {
+    "id": 650,
+    "rank": 650,
+    "word": "arrivato",
+    "turkishTranslation": "geldi"
+  },
+  {
+    "id": 651,
+    "rank": 651,
+    "word": "paese",
+    "turkishTranslation": "ülke"
+  },
+  {
+    "id": 652,
+    "rank": 652,
+    "word": "andate",
+    "turkishTranslation": "git"
+  },
+  {
+    "id": 653,
+    "rank": 653,
+    "word": "chiunque",
+    "turkishTranslation": "herkes"
+  },
+  {
+    "id": 654,
+    "rank": 654,
+    "word": "capisci",
+    "turkishTranslation": "anladın"
+  },
+  {
+    "id": 655,
+    "rank": 655,
+    "word": "pace",
+    "turkishTranslation": "barış"
+  },
+  {
+    "id": 656,
+    "rank": 656,
+    "word": "immagino",
+    "turkishTranslation": "sanırım"
+  },
+  {
+    "id": 657,
+    "rank": 657,
+    "word": "musica",
+    "turkishTranslation": "müzik"
+  },
+  {
+    "id": 658,
+    "rank": 658,
+    "word": "tieni",
+    "turkishTranslation": "burada"
+  },
+  {
+    "id": 659,
+    "rank": 659,
+    "word": "oddio",
+    "turkishTranslation": "aman tanrım"
+  },
+  {
+    "id": 660,
+    "rank": 660,
+    "word": "jack",
+    "turkishTranslation": "kriko"
+  },
+  {
+    "id": 661,
+    "rank": 661,
+    "word": "libro",
+    "turkishTranslation": "kitap"
+  },
+  {
+    "id": 662,
+    "rank": 662,
+    "word": "eravamo",
+    "turkishTranslation": "biz"
+  },
+  {
+    "id": 663,
+    "rank": 663,
+    "word": "amica",
+    "turkishTranslation": "arkadaş"
+  },
+  {
+    "id": 664,
+    "rank": 664,
+    "word": "diventare",
+    "turkishTranslation": "olmak"
+  },
+  {
+    "id": 665,
+    "rank": 665,
+    "word": "sui",
+    "turkishTranslation": "üzerinde"
+  },
+  {
+    "id": 666,
+    "rank": 666,
+    "word": "sbagliato",
+    "turkishTranslation": "yanlış"
+  },
+  {
+    "id": 667,
+    "rank": 667,
+    "word": "dirmi",
+    "turkishTranslation": "söyle bana"
+  },
+  {
+    "id": 668,
+    "rank": 668,
+    "word": "wow",
+    "turkishTranslation": "vay be"
+  },
+  {
+    "id": 669,
+    "rank": 669,
+    "word": "farai",
+    "turkishTranslation": "yapacaksın"
+  },
+  {
+    "id": 670,
+    "rank": 670,
+    "word": "entra",
+    "turkishTranslation": "girmek"
+  },
+  {
+    "id": 671,
+    "rank": 671,
+    "word": "venuta",
+    "turkishTranslation": "geliyor"
+  },
+  {
+    "id": 672,
+    "rank": 672,
+    "word": "scelta",
+    "turkishTranslation": "seçim"
+  },
+  {
+    "id": 673,
+    "rank": 673,
+    "word": "voluto",
+    "turkishTranslation": "aranıyor"
+  },
+  {
+    "id": 674,
+    "rank": 674,
+    "word": "portare",
+    "turkishTranslation": "getir"
+  },
+  {
+    "id": 675,
+    "rank": 675,
+    "word": "assolutamente",
+    "turkishTranslation": "kesinlikle"
+  },
+  {
+    "id": 676,
+    "rank": 676,
+    "word": "molte",
+    "turkishTranslation": "birçok"
+  },
+  {
+    "id": 677,
+    "rank": 677,
+    "word": "chiedo",
+    "turkishTranslation": "soruyorum"
+  },
+  {
+    "id": 678,
+    "rank": 678,
+    "word": "torna",
+    "turkishTranslation": "geri dön"
+  },
+  {
+    "id": 679,
+    "rank": 679,
+    "word": "scoperto",
+    "turkishTranslation": "keşfedildi"
+  },
+  {
+    "id": 680,
+    "rank": 680,
+    "word": "fatti",
+    "turkishTranslation": "gerçekler"
+  },
+  {
+    "id": 681,
+    "rank": 681,
+    "word": "settimane",
+    "turkishTranslation": "haftalar"
+  },
+  {
+    "id": 682,
+    "rank": 682,
+    "word": "dirlo",
+    "turkishTranslation": "söyle"
+  },
+  {
+    "id": 683,
+    "rank": 683,
+    "word": "alcuni",
+    "turkishTranslation": "bazıları"
+  },
+  {
+    "id": 684,
+    "rank": 684,
+    "word": "prigione",
+    "turkishTranslation": "hapishane"
+  },
+  {
+    "id": 685,
+    "rank": 685,
+    "word": "giornata",
+    "turkishTranslation": "gün"
+  },
+  {
+    "id": 686,
+    "rank": 686,
+    "word": "piuttosto",
+    "turkishTranslation": "daha ziyade"
+  },
+  {
+    "id": 687,
+    "rank": 687,
+    "word": "buono",
+    "turkishTranslation": "iyi"
+  },
+  {
+    "id": 688,
+    "rank": 688,
+    "word": "aspettare",
+    "turkishTranslation": "bekle"
+  },
+  {
+    "id": 689,
+    "rank": 689,
+    "word": "parli",
+    "turkishTranslation": "konuş"
+  },
+  {
+    "id": 690,
+    "rank": 690,
+    "word": "arrivare",
+    "turkishTranslation": "varmak"
+  },
+  {
+    "id": 691,
+    "rank": 691,
+    "word": "lungo",
+    "turkishTranslation": "uzun"
+  },
+  {
+    "id": 692,
+    "rank": 692,
+    "word": "vede",
+    "turkishTranslation": "görüyorsun"
+  },
+  {
+    "id": 693,
+    "rank": 693,
+    "word": "avvocato",
+    "turkishTranslation": "avukat"
+  },
+  {
+    "id": 694,
+    "rank": 694,
+    "word": "deciso",
+    "turkishTranslation": "karar verildi"
+  },
+  {
+    "id": 695,
+    "rank": 695,
+    "word": "sarai",
+    "turkishTranslation": "sen olacaksın"
+  },
+  {
+    "id": 696,
+    "rank": 696,
+    "word": "messaggio",
+    "turkishTranslation": "mesaj"
+  },
+  {
+    "id": 697,
+    "rank": 697,
+    "word": "dormire",
+    "turkishTranslation": "uyku"
+  },
+  {
+    "id": 698,
+    "rank": 698,
+    "word": "dieci",
+    "turkishTranslation": "on"
+  },
+  {
+    "id": 699,
+    "rank": 699,
+    "word": "stupido",
+    "turkishTranslation": "aptal"
+  },
+  {
+    "id": 700,
+    "rank": 700,
+    "word": "usare",
+    "turkishTranslation": "kullanmak"
+  },
+  {
+    "id": 701,
+    "rank": 701,
+    "word": "dello",
+    "turkishTranslation": "arasında"
+  },
+  {
+    "id": 702,
+    "rank": 702,
+    "word": "cielo",
+    "turkishTranslation": "gökyüzü"
+  },
+  {
+    "id": 703,
+    "rank": 703,
+    "word": "guardare",
+    "turkishTranslation": "bak"
+  },
+  {
+    "id": 704,
+    "rank": 704,
+    "word": "bagno",
+    "turkishTranslation": "banyo"
+  },
+  {
+    "id": 705,
+    "rank": 705,
+    "word": "aria",
+    "turkishTranslation": "hava"
+  },
+  {
+    "id": 706,
+    "rank": 706,
+    "word": "voce",
+    "turkishTranslation": "ses"
+  },
+  {
+    "id": 707,
+    "rank": 707,
+    "word": "tornato",
+    "turkishTranslation": "geri döndü"
+  },
+  {
+    "id": 708,
+    "rank": 708,
+    "word": "vuol",
+    "turkishTranslation": "istiyor"
+  },
+  {
+    "id": 709,
+    "rank": 709,
+    "word": "giù",
+    "turkishTranslation": "aşağı"
+  },
+  {
+    "id": 710,
+    "rank": 710,
+    "word": "conosci",
+    "turkishTranslation": "biliyorsun"
+  },
+  {
+    "id": 711,
+    "rank": 711,
+    "word": "benissimo",
+    "turkishTranslation": "çok iyi"
+  },
+  {
+    "id": 712,
+    "rank": 712,
+    "word": "prendo",
+    "turkishTranslation": "alıyorum"
+  },
+  {
+    "id": 713,
+    "rank": 713,
+    "word": "verita",
+    "turkishTranslation": "gerçek"
+  },
+  {
+    "id": 714,
+    "rank": 714,
+    "word": "cane",
+    "turkishTranslation": "köpek"
+  },
+  {
+    "id": 715,
+    "rank": 715,
+    "word": "restare",
+    "turkishTranslation": "kalmak"
+  },
+  {
+    "id": 716,
+    "rank": 716,
+    "word": "chiamare",
+    "turkishTranslation": "çağrı"
+  },
+  {
+    "id": 717,
+    "rank": 717,
+    "word": "poter",
+    "turkishTranslation": "yapabilmek"
+  },
+  {
+    "id": 718,
+    "rank": 718,
+    "word": "campo",
+    "turkishTranslation": "alan"
+  },
+  {
+    "id": 719,
+    "rank": 719,
+    "word": "luce",
+    "turkishTranslation": "ışık"
+  },
+  {
+    "id": 720,
+    "rank": 720,
+    "word": "sam",
+    "turkishTranslation": "sam"
+  },
+  {
+    "id": 721,
+    "rank": 721,
+    "word": "qualunque",
+    "turkishTranslation": "her neyse"
+  },
+  {
+    "id": 722,
+    "rank": 722,
+    "word": "giovane",
+    "turkishTranslation": "genç"
+  },
+  {
+    "id": 723,
+    "rank": 723,
+    "word": "signori",
+    "turkishTranslation": "beyler"
+  },
+  {
+    "id": 724,
+    "rank": 724,
+    "word": "fra",
+    "turkishTranslation": "kardeşim"
+  },
+  {
+    "id": 725,
+    "rank": 725,
+    "word": "provare",
+    "turkishTranslation": "denemek"
+  },
+  {
+    "id": 726,
+    "rank": 726,
+    "word": "minuto",
+    "turkishTranslation": "dakika"
+  },
+  {
+    "id": 727,
+    "rank": 727,
+    "word": "saperlo",
+    "turkishTranslation": "bunu biliyorum"
+  },
+  {
+    "id": 728,
+    "rank": 728,
+    "word": "lontano",
+    "turkishTranslation": "çok uzakta"
+  },
+  {
+    "id": 729,
+    "rank": 729,
+    "word": "gruppo",
+    "turkishTranslation": "grup"
+  },
+  {
+    "id": 730,
+    "rank": 730,
+    "word": "continua",
+    "turkishTranslation": "devam et"
+  },
+  {
+    "id": 731,
+    "rank": 731,
+    "word": "arrivo",
+    "turkishTranslation": "geliyorum"
+  },
+  {
+    "id": 732,
+    "rank": 732,
+    "word": "gran",
+    "turkishTranslation": "harika"
+  },
+  {
+    "id": 733,
+    "rank": 733,
+    "word": "realta",
+    "turkishTranslation": "gerçeklik"
+  },
+  {
+    "id": 734,
+    "rank": 734,
+    "word": "cerca",
+    "turkishTranslation": "arama"
+  },
+  {
+    "id": 735,
+    "rank": 735,
+    "word": "passo",
+    "turkishTranslation": "adım"
+  },
+  {
+    "id": 736,
+    "rank": 736,
+    "word": "domande",
+    "turkishTranslation": "sorular"
+  },
+  {
+    "id": 737,
+    "rank": 737,
+    "word": "insomma",
+    "turkishTranslation": "kısacası"
+  },
+  {
+    "id": 738,
+    "rank": 738,
+    "word": "bambina",
+    "turkishTranslation": "küçük kız"
+  },
+  {
+    "id": 739,
+    "rank": 739,
+    "word": "pensando",
+    "turkishTranslation": "düşünme"
+  },
+  {
+    "id": 740,
+    "rank": 740,
+    "word": "capelli",
+    "turkishTranslation": "saç"
+  },
+  {
+    "id": 741,
+    "rank": 741,
+    "word": "trova",
+    "turkishTranslation": "Bul"
+  },
+  {
+    "id": 742,
+    "rank": 742,
+    "word": "onore",
+    "turkishTranslation": "onur"
+  },
+  {
+    "id": 743,
+    "rank": 743,
+    "word": "aiutare",
+    "turkishTranslation": "yardım"
+  },
+  {
+    "id": 744,
+    "rank": 744,
+    "word": "verità",
+    "turkishTranslation": "gerçek"
+  },
+  {
+    "id": 745,
+    "rank": 745,
+    "word": "prove",
+    "turkishTranslation": "testler"
+  },
+  {
+    "id": 746,
+    "rank": 746,
+    "word": "funziona",
+    "turkishTranslation": "işe yarıyor"
+  },
+  {
+    "id": 747,
+    "rank": 747,
+    "word": "alto",
+    "turkishTranslation": "yüksek"
+  },
+  {
+    "id": 748,
+    "rank": 748,
+    "word": "giu",
+    "turkishTranslation": "Haziran"
+  },
+  {
+    "id": 749,
+    "rank": 749,
+    "word": "credevo",
+    "turkishTranslation": "inandım"
+  },
+  {
+    "id": 750,
+    "rank": 750,
+    "word": "futuro",
+    "turkishTranslation": "gelecek"
+  },
+  {
+    "id": 751,
+    "rank": 751,
+    "word": "preoccuparti",
+    "turkishTranslation": "endişelenmek"
+  },
+  {
+    "id": 752,
+    "rank": 752,
+    "word": "idiota",
+    "turkishTranslation": "aptal"
+  },
+  {
+    "id": 753,
+    "rank": 753,
+    "word": "cibo",
+    "turkishTranslation": "yiyecek"
+  },
+  {
+    "id": 754,
+    "rank": 754,
+    "word": "fretta",
+    "turkishTranslation": "acele et"
+  },
+  {
+    "id": 755,
+    "rank": 755,
+    "word": "cara",
+    "turkishTranslation": "canım"
+  },
+  {
+    "id": 756,
+    "rank": 756,
+    "word": "finalmente",
+    "turkishTranslation": "nihayet"
+  },
+  {
+    "id": 757,
+    "rank": 757,
+    "word": "morti",
+    "turkishTranslation": "ölü"
+  },
+  {
+    "id": 758,
+    "rank": 758,
+    "word": "odio",
+    "turkishTranslation": "nefret ediyorum"
+  },
+  {
+    "id": 759,
+    "rank": 759,
+    "word": "solito",
+    "turkishTranslation": "olağan"
+  },
+  {
+    "id": 760,
+    "rank": 760,
+    "word": "brava",
+    "turkishTranslation": "iyi"
+  },
+  {
+    "id": 761,
+    "rank": 761,
+    "word": "é",
+    "turkishTranslation": "öyle"
+  },
+  {
+    "id": 762,
+    "rank": 762,
+    "word": "incidente",
+    "turkishTranslation": "kaza"
+  },
+  {
+    "id": 763,
+    "rank": 763,
+    "word": "allo",
+    "turkishTranslation": "merhaba"
+  },
+  {
+    "id": 764,
+    "rank": 764,
+    "word": "intenzione",
+    "turkishTranslation": "niyet"
+  },
+  {
+    "id": 765,
+    "rank": 765,
+    "word": "speciale",
+    "turkishTranslation": "özel"
+  },
+  {
+    "id": 766,
+    "rank": 766,
+    "word": "cambiare",
+    "turkishTranslation": "değişiklik"
+  },
+  {
+    "id": 767,
+    "rank": 767,
+    "word": "vera",
+    "turkishTranslation": "doğru"
+  },
+  {
+    "id": 768,
+    "rank": 768,
+    "word": "camera",
+    "turkishTranslation": "oda"
+  },
+  {
+    "id": 769,
+    "rank": 769,
+    "word": "oltre",
+    "turkishTranslation": "ötesinde"
+  },
+  {
+    "id": 770,
+    "rank": 770,
+    "word": "semplice",
+    "turkishTranslation": "basit"
+  },
+  {
+    "id": 771,
+    "rank": 771,
+    "word": "dirti",
+    "turkishTranslation": "sana söyleyeyim"
+  },
+  {
+    "id": 772,
+    "rank": 772,
+    "word": "riguardo",
+    "turkishTranslation": "ilgili"
+  },
+  {
+    "id": 773,
+    "rank": 773,
+    "word": "finche",
+    "turkishTranslation": "kadar"
+  },
+  {
+    "id": 774,
+    "rank": 774,
+    "word": "aspetto",
+    "turkishTranslation": "bekliyorum"
+  },
+  {
+    "id": 775,
+    "rank": 775,
+    "word": "viaggio",
+    "turkishTranslation": "gezi"
+  },
+  {
+    "id": 776,
+    "rank": 776,
+    "word": "chiaro",
+    "turkishTranslation": "açık"
+  },
+  {
+    "id": 777,
+    "rank": 777,
+    "word": "chiamata",
+    "turkishTranslation": "çağrı"
+  },
+  {
+    "id": 778,
+    "rank": 778,
+    "word": "bocca",
+    "turkishTranslation": "ağız"
+  },
+  {
+    "id": 779,
+    "rank": 779,
+    "word": "permesso",
+    "turkishTranslation": "izin verildi"
+  },
+  {
+    "id": 780,
+    "rank": 780,
+    "word": "piacerebbe",
+    "turkishTranslation": "hoşuma gider"
+  },
+  {
+    "id": 781,
+    "rank": 781,
+    "word": "dovete",
+    "turkishTranslation": "yapmalısın"
+  },
+  {
+    "id": 782,
+    "rank": 782,
+    "word": "giocare",
+    "turkishTranslation": "oynamak"
+  },
+  {
+    "id": 783,
+    "rank": 783,
+    "word": "ordine",
+    "turkishTranslation": "sipariş"
+  },
+  {
+    "id": 784,
+    "rank": 784,
+    "word": "circa",
+    "turkishTranslation": "yaklaşık"
+  },
+  {
+    "id": 785,
+    "rank": 785,
+    "word": "ovviamente",
+    "turkishTranslation": "açıkçası"
+  },
+  {
+    "id": 786,
+    "rank": 786,
+    "word": "finire",
+    "turkishTranslation": "bitirmek"
+  },
+  {
+    "id": 787,
+    "rank": 787,
+    "word": "natale",
+    "turkishTranslation": "Noel"
+  },
+  {
+    "id": 788,
+    "rank": 788,
+    "word": "direi",
+    "turkishTranslation": "derdim"
+  },
+  {
+    "id": 789,
+    "rank": 789,
+    "word": "vostri",
+    "turkishTranslation": "senin"
+  },
+  {
+    "id": 790,
+    "rank": 790,
+    "word": "occhio",
+    "turkishTranslation": "göz"
+  },
+  {
+    "id": 791,
+    "rank": 791,
+    "word": "pronta",
+    "turkishTranslation": "hazır"
+  },
+  {
+    "id": 792,
+    "rank": 792,
+    "word": "scusami",
+    "turkishTranslation": "üzgünüm"
+  },
+  {
+    "id": 793,
+    "rank": 793,
+    "word": "mattina",
+    "turkishTranslation": "sabah"
+  },
+  {
+    "id": 794,
+    "rank": 794,
+    "word": "cercato",
+    "turkishTranslation": "arandı"
+  },
+  {
+    "id": 795,
+    "rank": 795,
+    "word": "crede",
+    "turkishTranslation": "inanmak"
+  },
+  {
+    "id": 796,
+    "rank": 796,
+    "word": "sistema",
+    "turkishTranslation": "sistem"
+  },
+  {
+    "id": 797,
+    "rank": 797,
+    "word": "york",
+    "turkishTranslation": "york"
+  },
+  {
+    "id": 798,
+    "rank": 798,
+    "word": "fondo",
+    "turkishTranslation": "alt"
+  },
+  {
+    "id": 799,
+    "rank": 799,
+    "word": "resta",
+    "turkishTranslation": "kalmak"
+  },
+  {
+    "id": 800,
+    "rank": 800,
+    "word": "devono",
+    "turkishTranslation": "yapmalılar"
+  },
+  {
+    "id": 801,
+    "rank": 801,
+    "word": "prossimo",
+    "turkishTranslation": "sonraki"
+  },
+  {
+    "id": 802,
+    "rank": 802,
+    "word": "pronti",
+    "turkishTranslation": "hazır"
+  },
+  {
+    "id": 803,
+    "rank": 803,
+    "word": "saputo",
+    "turkishTranslation": "bilinen"
+  },
+  {
+    "id": 804,
+    "rank": 804,
+    "word": "scusate",
+    "turkishTranslation": "üzgünüm"
+  },
+  {
+    "id": 805,
+    "rank": 805,
+    "word": "potere",
+    "turkishTranslation": "güç"
+  },
+  {
+    "id": 806,
+    "rank": 806,
+    "word": "milioni",
+    "turkishTranslation": "milyonlarca"
+  },
+  {
+    "id": 807,
+    "rank": 807,
+    "word": "soltanto",
+    "turkishTranslation": "sadece"
+  },
+  {
+    "id": 808,
+    "rank": 808,
+    "word": "armi",
+    "turkishTranslation": "silahlar"
+  },
+  {
+    "id": 809,
+    "rank": 809,
+    "word": "arriva",
+    "turkishTranslation": "geldiğinde"
+  },
+  {
+    "id": 810,
+    "rank": 810,
+    "word": "fermo",
+    "turkishTranslation": "durduruldu"
+  },
+  {
+    "id": 811,
+    "rank": 811,
+    "word": "mese",
+    "turkishTranslation": "ay"
+  },
+  {
+    "id": 812,
+    "rank": 812,
+    "word": "chiedere",
+    "turkishTranslation": "sor"
+  },
+  {
+    "id": 813,
+    "rank": 813,
+    "word": "cristo",
+    "turkishTranslation": "İsa"
+  },
+  {
+    "id": 814,
+    "rank": 814,
+    "word": "torno",
+    "turkishTranslation": "geri döneceğim"
+  },
+  {
+    "id": 815,
+    "rank": 815,
+    "word": "venite",
+    "turkishTranslation": "gel"
+  },
+  {
+    "id": 816,
+    "rank": 816,
+    "word": "controllare",
+    "turkishTranslation": "kontrol et"
+  },
+  {
+    "id": 817,
+    "rank": 817,
+    "word": "appuntamento",
+    "turkishTranslation": "randevu"
+  },
+  {
+    "id": 818,
+    "rank": 818,
+    "word": "s",
+    "turkishTranslation": "s"
+  },
+  {
+    "id": 819,
+    "rank": 819,
+    "word": "chiami",
+    "turkishTranslation": "çağrı"
+  },
+  {
+    "id": 820,
+    "rank": 820,
+    "word": "vecchia",
+    "turkishTranslation": "eski"
+  },
+  {
+    "id": 821,
+    "rank": 821,
+    "word": "detective",
+    "turkishTranslation": "dedektif"
+  },
+  {
+    "id": 822,
+    "rank": 822,
+    "word": "pero",
+    "turkishTranslation": "ama"
+  },
+  {
+    "id": 823,
+    "rank": 823,
+    "word": "metti",
+    "turkishTranslation": "koymak"
+  },
+  {
+    "id": 824,
+    "rank": 824,
+    "word": "grado",
+    "turkishTranslation": "derece"
+  },
+  {
+    "id": 825,
+    "rank": 825,
+    "word": "vanno",
+    "turkishTranslation": "gidiyorlar"
+  },
+  {
+    "id": 826,
+    "rank": 826,
+    "word": "nave",
+    "turkishTranslation": "gemi"
+  },
+  {
+    "id": 827,
+    "rank": 827,
+    "word": "iniziato",
+    "turkishTranslation": "başladı"
+  },
+  {
+    "id": 828,
+    "rank": 828,
+    "word": "informazioni",
+    "turkishTranslation": "bilgi"
+  },
+  {
+    "id": 829,
+    "rank": 829,
+    "word": "libero",
+    "turkishTranslation": "ücretsiz"
+  },
+  {
+    "id": 830,
+    "rank": 830,
+    "word": "stronzo",
+    "turkishTranslation": "pislik"
+  },
+  {
+    "id": 831,
+    "rank": 831,
+    "word": "grandi",
+    "turkishTranslation": "büyük"
+  },
+  {
+    "id": 832,
+    "rank": 832,
+    "word": "pezzo",
+    "turkishTranslation": "parça"
+  },
+  {
+    "id": 833,
+    "rank": 833,
+    "word": "segreto",
+    "turkishTranslation": "gizli"
+  },
+  {
+    "id": 834,
+    "rank": 834,
+    "word": "colpo",
+    "turkishTranslation": "atış"
+  },
+  {
+    "id": 835,
+    "rank": 835,
+    "word": "faceva",
+    "turkishTranslation": "o yaptı"
+  },
+  {
+    "id": 836,
+    "rank": 836,
+    "word": "piacciono",
+    "turkishTranslation": "onları seviyorlar"
+  },
+  {
+    "id": 837,
+    "rank": 837,
+    "word": "porto",
+    "turkishTranslation": "liman"
+  },
+  {
+    "id": 838,
+    "rank": 838,
+    "word": "oppure",
+    "turkishTranslation": "veya"
+  },
+  {
+    "id": 839,
+    "rank": 839,
+    "word": "completamente",
+    "turkishTranslation": "tamamen"
+  },
+  {
+    "id": 840,
+    "rank": 840,
+    "word": "vederti",
+    "turkishTranslation": "görüşürüz"
+  },
+  {
+    "id": 841,
+    "rank": 841,
+    "word": "lista",
+    "turkishTranslation": "liste"
+  },
+  {
+    "id": 842,
+    "rank": 842,
+    "word": "venga",
+    "turkishTranslation": "gel"
+  },
+  {
+    "id": 843,
+    "rank": 843,
+    "word": "veloce",
+    "turkishTranslation": "hızlı"
+  },
+  {
+    "id": 844,
+    "rank": 844,
+    "word": "assassino",
+    "turkishTranslation": "katil"
+  },
+  {
+    "id": 845,
+    "rank": 845,
+    "word": "sapeva",
+    "turkishTranslation": "o biliyordu"
+  },
+  {
+    "id": 846,
+    "rank": 846,
+    "word": "finché",
+    "turkishTranslation": "kadar"
+  },
+  {
+    "id": 847,
+    "rank": 847,
+    "word": "tom",
+    "turkishTranslation": "tom"
+  },
+  {
+    "id": 848,
+    "rank": 848,
+    "word": "ormai",
+    "turkishTranslation": "şimdi"
+  },
+  {
+    "id": 849,
+    "rank": 849,
+    "word": "interessa",
+    "turkishTranslation": "ilgi alanları"
+  },
+  {
+    "id": 850,
+    "rank": 850,
+    "word": "generale",
+    "turkishTranslation": "genel"
+  },
+  {
+    "id": 851,
+    "rank": 851,
+    "word": "giusta",
+    "turkishTranslation": "doğru"
+  },
+  {
+    "id": 852,
+    "rank": 852,
+    "word": "tenere",
+    "turkishTranslation": "tutmak"
+  },
+  {
+    "id": 853,
+    "rank": 853,
+    "word": "pazzo",
+    "turkishTranslation": "çılgın"
+  },
+  {
+    "id": 854,
+    "rank": 854,
+    "word": "vittima",
+    "turkishTranslation": "kurban"
+  },
+  {
+    "id": 855,
+    "rank": 855,
+    "word": "giuro",
+    "turkishTranslation": "Yemin ederim"
+  },
+  {
+    "id": 856,
+    "rank": 856,
+    "word": "consiglio",
+    "turkishTranslation": "tavsiye"
+  },
+  {
+    "id": 857,
+    "rank": 857,
+    "word": "michael",
+    "turkishTranslation": "Michael"
+  },
+  {
+    "id": 858,
+    "rank": 858,
+    "word": "alcune",
+    "turkishTranslation": "bazıları"
+  },
+  {
+    "id": 859,
+    "rank": 859,
+    "word": "semplicemente",
+    "turkishTranslation": "basitçe"
+  },
+  {
+    "id": 860,
+    "rank": 860,
+    "word": "zio",
+    "turkishTranslation": "amca"
+  },
+  {
+    "id": 861,
+    "rank": 861,
+    "word": "centro",
+    "turkishTranslation": "merkez"
+  },
+  {
+    "id": 862,
+    "rank": 862,
+    "word": "specie",
+    "turkishTranslation": "türler"
+  },
+  {
+    "id": 863,
+    "rank": 863,
+    "word": "mille",
+    "turkishTranslation": "bin"
+  },
+  {
+    "id": 864,
+    "rank": 864,
+    "word": "sogno",
+    "turkishTranslation": "rüya"
+  },
+  {
+    "id": 865,
+    "rank": 865,
+    "word": "lasci",
+    "turkishTranslation": "ayrılmak"
+  },
+  {
+    "id": 866,
+    "rank": 866,
+    "word": "carino",
+    "turkishTranslation": "sevimli"
+  },
+  {
+    "id": 867,
+    "rank": 867,
+    "word": "doveva",
+    "turkishTranslation": "zorundaydım"
+  },
+  {
+    "id": 868,
+    "rank": 868,
+    "word": "brutto",
+    "turkishTranslation": "çirkin"
+  },
+  {
+    "id": 869,
+    "rank": 869,
+    "word": "nello",
+    "turkishTranslation": "içinde"
+  },
+  {
+    "id": 870,
+    "rank": 870,
+    "word": "aspetti",
+    "turkishTranslation": "bekle"
+  },
+  {
+    "id": 871,
+    "rank": 871,
+    "word": "incredibile",
+    "turkishTranslation": "inanılmaz"
+  },
+  {
+    "id": 872,
+    "rank": 872,
+    "word": "sole",
+    "turkishTranslation": "güneş"
+  },
+  {
+    "id": 873,
+    "rank": 873,
+    "word": "glielo",
+    "turkishTranslation": "o"
+  },
+  {
+    "id": 874,
+    "rank": 874,
+    "word": "legge",
+    "turkishTranslation": "hukuk"
+  },
+  {
+    "id": 875,
+    "rank": 875,
+    "word": "spesso",
+    "turkishTranslation": "sık sık"
+  },
+  {
+    "id": 876,
+    "rank": 876,
+    "word": "guardate",
+    "turkishTranslation": "bak"
+  },
+  {
+    "id": 877,
+    "rank": 877,
+    "word": "cambiato",
+    "turkishTranslation": "değişti"
+  },
+  {
+    "id": 878,
+    "rank": 878,
+    "word": "scena",
+    "turkishTranslation": "sahne"
+  },
+  {
+    "id": 879,
+    "rank": 879,
+    "word": "volevi",
+    "turkishTranslation": "sen istedin"
+  },
+  {
+    "id": 880,
+    "rank": 880,
+    "word": "charlie",
+    "turkishTranslation": "Charlie"
+  },
+  {
+    "id": 881,
+    "rank": 881,
+    "word": "lasciami",
+    "turkishTranslation": "beni bırak"
+  },
+  {
+    "id": 882,
+    "rank": 882,
+    "word": "gentile",
+    "turkishTranslation": "nazik"
+  },
+  {
+    "id": 883,
+    "rank": 883,
+    "word": "rispetto",
+    "turkishTranslation": "saygı"
+  },
+  {
+    "id": 884,
+    "rank": 884,
+    "word": "ve",
+    "turkishTranslation": "görmek"
+  },
+  {
+    "id": 885,
+    "rank": 885,
+    "word": "fara",
+    "turkishTranslation": "yapacak"
+  },
+  {
+    "id": 886,
+    "rank": 886,
+    "word": "zitto",
+    "turkishTranslation": "çeneni kapat"
+  },
+  {
+    "id": 887,
+    "rank": 887,
+    "word": "incontro",
+    "turkishTranslation": "toplantı"
+  },
+  {
+    "id": 888,
+    "rank": 888,
+    "word": "farà",
+    "turkishTranslation": "yapacak"
+  },
+  {
+    "id": 889,
+    "rank": 889,
+    "word": "servono",
+    "turkishTranslation": "onlara ihtiyaç var"
+  },
+  {
+    "id": 890,
+    "rank": 890,
+    "word": "rapporto",
+    "turkishTranslation": "ilişki"
+  },
+  {
+    "id": 891,
+    "rank": 891,
+    "word": "errore",
+    "turkishTranslation": "hata"
+  },
+  {
+    "id": 892,
+    "rank": 892,
+    "word": "mike",
+    "turkishTranslation": "mikrofon"
+  },
+  {
+    "id": 893,
+    "rank": 893,
+    "word": "sanno",
+    "turkishTranslation": "biliyorlar"
+  },
+  {
+    "id": 894,
+    "rank": 894,
+    "word": "pagare",
+    "turkishTranslation": "ödemek"
+  },
+  {
+    "id": 895,
+    "rank": 895,
+    "word": "sorpresa",
+    "turkishTranslation": "sürpriz"
+  },
+  {
+    "id": 896,
+    "rank": 896,
+    "word": "occhiata",
+    "turkishTranslation": "bak"
+  },
+  {
+    "id": 897,
+    "rank": 897,
+    "word": "risposta",
+    "turkishTranslation": "cevap"
+  },
+  {
+    "id": 898,
+    "rank": 898,
+    "word": "presa",
+    "turkishTranslation": "alınmış"
+  },
+  {
+    "id": 899,
+    "rank": 899,
+    "word": "servizio",
+    "turkishTranslation": "hizmet"
+  },
+  {
+    "id": 900,
+    "rank": 900,
+    "word": "medico",
+    "turkishTranslation": "doktor"
+  },
+  {
+    "id": 901,
+    "rank": 901,
+    "word": "usato",
+    "turkishTranslation": "kullanılmış"
+  },
+  {
+    "id": 902,
+    "rank": 902,
+    "word": "hey",
+    "turkishTranslation": "selam"
+  },
+  {
+    "id": 903,
+    "rank": 903,
+    "word": "caro",
+    "turkishTranslation": "canım"
+  },
+  {
+    "id": 904,
+    "rank": 904,
+    "word": "schifo",
+    "turkishTranslation": "iğrenç"
+  },
+  {
+    "id": 905,
+    "rank": 905,
+    "word": "avrai",
+    "turkishTranslation": "sahip olacaksın"
+  },
+  {
+    "id": 906,
+    "rank": 906,
+    "word": "dolore",
+    "turkishTranslation": "ağrı"
+  },
+  {
+    "id": 907,
+    "rank": 907,
+    "word": "saresti",
+    "turkishTranslation": "sen olurdun"
+  },
+  {
+    "id": 908,
+    "rank": 908,
+    "word": "personale",
+    "turkishTranslation": "kişisel"
+  },
+  {
+    "id": 909,
+    "rank": 909,
+    "word": "quali",
+    "turkishTranslation": "hangileri"
+  },
+  {
+    "id": 910,
+    "rank": 910,
+    "word": "saro",
+    "turkishTranslation": "saro"
+  },
+  {
+    "id": 911,
+    "rank": 911,
+    "word": "peggio",
+    "turkishTranslation": "daha kötü"
+  },
+  {
+    "id": 912,
+    "rank": 912,
+    "word": "addio",
+    "turkishTranslation": "elveda"
+  },
+  {
+    "id": 913,
+    "rank": 913,
+    "word": "addosso",
+    "turkishTranslation": "üzerinde"
+  },
+  {
+    "id": 914,
+    "rank": 914,
+    "word": "dovevo",
+    "turkishTranslation": "mecburdum"
+  },
+  {
+    "id": 915,
+    "rank": 915,
+    "word": "poteva",
+    "turkishTranslation": "yapabilirdi"
+  },
+  {
+    "id": 916,
+    "rank": 916,
+    "word": "pieno",
+    "turkishTranslation": "dolu"
+  },
+  {
+    "id": 917,
+    "rank": 917,
+    "word": "diverso",
+    "turkishTranslation": "farklı"
+  },
+  {
+    "id": 918,
+    "rank": 918,
+    "word": "vestiti",
+    "turkishTranslation": "giysi"
+  },
+  {
+    "id": 919,
+    "rank": 919,
+    "word": "sparato",
+    "turkishTranslation": "atış"
+  },
+  {
+    "id": 920,
+    "rank": 920,
+    "word": "realtà",
+    "turkishTranslation": "gerçeklik"
+  },
+  {
+    "id": 921,
+    "rank": 921,
+    "word": "do",
+    "turkishTranslation": "yap"
+  },
+  {
+    "id": 922,
+    "rank": 922,
+    "word": "sarò",
+    "turkishTranslation": "olacağım"
+  },
+  {
+    "id": 923,
+    "rank": 923,
+    "word": "normale",
+    "turkishTranslation": "normal"
+  },
+  {
+    "id": 924,
+    "rank": 924,
+    "word": "fame",
+    "turkishTranslation": "aç"
+  },
+  {
+    "id": 925,
+    "rank": 925,
+    "word": "programma",
+    "turkishTranslation": "programı"
+  },
+  {
+    "id": 926,
+    "rank": 926,
+    "word": "nonna",
+    "turkishTranslation": "büyükanne"
+  },
+  {
+    "id": 927,
+    "rank": 927,
+    "word": "sappia",
+    "turkishTranslation": "biliyorum"
+  },
+  {
+    "id": 928,
+    "rank": 928,
+    "word": "sembrava",
+    "turkishTranslation": "öyle görünüyordu"
+  },
+  {
+    "id": 929,
+    "rank": 929,
+    "word": "migliori",
+    "turkishTranslation": "daha iyi"
+  },
+  {
+    "id": 930,
+    "rank": 930,
+    "word": "notizie",
+    "turkishTranslation": "haberler"
+  },
+  {
+    "id": 931,
+    "rank": 931,
+    "word": "avevamo",
+    "turkishTranslation": "bizde vardı"
+  },
+  {
+    "id": 932,
+    "rank": 932,
+    "word": "riesci",
+    "turkishTranslation": "yapabilirsin"
+  },
+  {
+    "id": 933,
+    "rank": 933,
+    "word": "posizione",
+    "turkishTranslation": "konum"
+  },
+  {
+    "id": 934,
+    "rank": 934,
+    "word": "vengo",
+    "turkishTranslation": "geliyorum"
+  },
+  {
+    "id": 935,
+    "rank": 935,
+    "word": "rimanere",
+    "turkishTranslation": "kalmak"
+  },
+  {
+    "id": 936,
+    "rank": 936,
+    "word": "compagnia",
+    "turkishTranslation": "şirket"
+  },
+  {
+    "id": 937,
+    "rank": 937,
+    "word": "proposito",
+    "turkishTranslation": "amaç"
+  },
+  {
+    "id": 938,
+    "rank": 938,
+    "word": "farci",
+    "turkishTranslation": "yap"
+  },
+  {
+    "id": 939,
+    "rank": 939,
+    "word": "joe",
+    "turkishTranslation": "Joe"
+  },
+  {
+    "id": 940,
+    "rank": 940,
+    "word": "ricorda",
+    "turkishTranslation": "hatırla"
+  },
+  {
+    "id": 941,
+    "rank": 941,
+    "word": "frank",
+    "turkishTranslation": "açık sözlü"
+  },
+  {
+    "id": 942,
+    "rank": 942,
+    "word": "prende",
+    "turkishTranslation": "alır"
+  },
+  {
+    "id": 943,
+    "rank": 943,
+    "word": "tante",
+    "turkishTranslation": "birçok"
+  },
+  {
+    "id": 944,
+    "rank": 944,
+    "word": "avevano",
+    "turkishTranslation": "onlar vardı"
+  },
+  {
+    "id": 945,
+    "rank": 945,
+    "word": "arrivando",
+    "turkishTranslation": "varış"
+  },
+  {
+    "id": 946,
+    "rank": 946,
+    "word": "chiuso",
+    "turkishTranslation": "kapalı"
+  },
+  {
+    "id": 947,
+    "rank": 947,
+    "word": "terribile",
+    "turkishTranslation": "korkunç"
+  },
+  {
+    "id": 948,
+    "rank": 948,
+    "word": "ritardo",
+    "turkishTranslation": "gecikme"
+  },
+  {
+    "id": 949,
+    "rank": 949,
+    "word": "attento",
+    "turkishTranslation": "dikkatli"
+  },
+  {
+    "id": 950,
+    "rank": 950,
+    "word": "bar",
+    "turkishTranslation": "çubuk"
+  },
+  {
+    "id": 951,
+    "rank": 951,
+    "word": "sembri",
+    "turkishTranslation": "görünüyorsun"
+  },
+  {
+    "id": 952,
+    "rank": 952,
+    "word": "fallo",
+    "turkishTranslation": "yap"
+  },
+  {
+    "id": 953,
+    "rank": 953,
+    "word": "dimenticato",
+    "turkishTranslation": "unutulmuş"
+  },
+  {
+    "id": 954,
+    "rank": 954,
+    "word": "bisogna",
+    "turkishTranslation": "yapmalısın"
+  },
+  {
+    "id": 955,
+    "rank": 955,
+    "word": "impossibile",
+    "turkishTranslation": "imkansız"
+  },
+  {
+    "id": 956,
+    "rank": 956,
+    "word": "cioè",
+    "turkishTranslation": "yani"
+  },
+  {
+    "id": 957,
+    "rank": 957,
+    "word": "studio",
+    "turkishTranslation": "çalışma"
+  },
+  {
+    "id": 958,
+    "rank": 958,
+    "word": "stessi",
+    "turkishTranslation": "kendileri"
+  },
+  {
+    "id": 959,
+    "rank": 959,
+    "word": "arma",
+    "turkishTranslation": "silah"
+  },
+  {
+    "id": 960,
+    "rank": 960,
+    "word": "conosce",
+    "turkishTranslation": "biliyor"
+  },
+  {
+    "id": 961,
+    "rank": 961,
+    "word": "uscita",
+    "turkishTranslation": "çıkış"
+  },
+  {
+    "id": 962,
+    "rank": 962,
+    "word": "ii",
+    "turkishTranslation": "ii"
+  },
+  {
+    "id": 963,
+    "rank": 963,
+    "word": "fin",
+    "turkishTranslation": "yüzgeç"
+  },
+  {
+    "id": 964,
+    "rank": 964,
+    "word": "disse",
+    "turkishTranslation": "dedi"
+  },
+  {
+    "id": 965,
+    "rank": 965,
+    "word": "david",
+    "turkishTranslation": "David"
+  },
+  {
+    "id": 966,
+    "rank": 966,
+    "word": "vattene",
+    "turkishTranslation": "çekip gitmek"
+  },
+  {
+    "id": 967,
+    "rank": 967,
+    "word": "quante",
+    "turkishTranslation": "kaç tane"
+  },
+  {
+    "id": 968,
+    "rank": 968,
+    "word": "guai",
+    "turkishTranslation": "sorun"
+  },
+  {
+    "id": 969,
+    "rank": 969,
+    "word": "intorno",
+    "turkishTranslation": "etrafında"
+  },
+  {
+    "id": 970,
+    "rank": 970,
+    "word": "video",
+    "turkishTranslation": "videolar"
+  },
+  {
+    "id": 971,
+    "rank": 971,
+    "word": "manca",
+    "turkishTranslation": "kayıp"
+  },
+  {
+    "id": 972,
+    "rank": 972,
+    "word": "esserci",
+    "turkishTranslation": "orada ol"
+  },
+  {
+    "id": 973,
+    "rank": 973,
+    "word": "grosso",
+    "turkishTranslation": "büyük"
+  },
+  {
+    "id": 974,
+    "rank": 974,
+    "word": "tanti",
+    "turkishTranslation": "birçok"
+  },
+  {
+    "id": 975,
+    "rank": 975,
+    "word": "dolce",
+    "turkishTranslation": "tatlı"
+  },
+  {
+    "id": 976,
+    "rank": 976,
+    "word": "chiave",
+    "turkishTranslation": "anahtar"
+  },
+  {
+    "id": 977,
+    "rank": 977,
+    "word": "cervello",
+    "turkishTranslation": "beyin"
+  },
+  {
+    "id": 978,
+    "rank": 978,
+    "word": "coraggio",
+    "turkishTranslation": "cesaret"
+  },
+  {
+    "id": 979,
+    "rank": 979,
+    "word": "interessante",
+    "turkishTranslation": "ilginç"
+  },
+  {
+    "id": 980,
+    "rank": 980,
+    "word": "peccato",
+    "turkishTranslation": "çok kötü"
+  },
+  {
+    "id": 981,
+    "rank": 981,
+    "word": "questione",
+    "turkishTranslation": "soru"
+  },
+  {
+    "id": 982,
+    "rank": 982,
+    "word": "adoro",
+    "turkishTranslation": "onu seviyorum"
+  },
+  {
+    "id": 983,
+    "rank": 983,
+    "word": "aereo",
+    "turkishTranslation": "uçak"
+  },
+  {
+    "id": 984,
+    "rank": 984,
+    "word": "guardi",
+    "turkishTranslation": "bak"
+  },
+  {
+    "id": 985,
+    "rank": 985,
+    "word": "rubato",
+    "turkishTranslation": "çalıntı"
+  },
+  {
+    "id": 986,
+    "rank": 986,
+    "word": "sala",
+    "turkishTranslation": "salon"
+  },
+  {
+    "id": 987,
+    "rank": 987,
+    "word": "base",
+    "turkishTranslation": "temel"
+  },
+  {
+    "id": 988,
+    "rank": 988,
+    "word": "peter",
+    "turkishTranslation": "Peter"
+  },
+  {
+    "id": 989,
+    "rank": 989,
+    "word": "george",
+    "turkishTranslation": "George"
+  },
+  {
+    "id": 990,
+    "rank": 990,
+    "word": "sette",
+    "turkishTranslation": "yedi"
+  },
+  {
+    "id": 991,
+    "rank": 991,
+    "word": "sente",
+    "turkishTranslation": "duymak"
+  },
+  {
+    "id": 992,
+    "rank": 992,
+    "word": "compleanno",
+    "turkishTranslation": "doğum günü"
+  },
+  {
+    "id": 993,
+    "rank": 993,
+    "word": "potrebbero",
+    "turkishTranslation": "yapabilirlerdi"
+  },
+  {
+    "id": 994,
+    "rank": 994,
+    "word": "relazione",
+    "turkishTranslation": "ilişki"
+  },
+  {
+    "id": 995,
+    "rank": 995,
+    "word": "cliente",
+    "turkishTranslation": "müşteri"
+  },
+  {
+    "id": 996,
+    "rank": 996,
+    "word": "spalle",
+    "turkishTranslation": "omuzlar"
+  },
+  {
+    "id": 997,
+    "rank": 997,
+    "word": "seconda",
+    "turkishTranslation": "ikinci"
+  },
+  {
+    "id": 998,
+    "rank": 998,
+    "word": "parti",
+    "turkishTranslation": "parçalar"
+  },
+  {
+    "id": 999,
+    "rank": 999,
+    "word": "vale",
+    "turkishTranslation": "buna değer"
+  },
+  {
+    "id": 1000,
+    "rank": 1000,
+    "word": "qualcun",
+    "turkishTranslation": "birisi"
+  }
+]

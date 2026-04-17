@@ -1,5 +1,5 @@
-import { PagePlaceholder } from "@/components/ui/page-placeholder";
+import { VocabularyPageClient } from "./components";
 
 export function VocabularyPageView() {
-  return <PagePlaceholder title="Vocabulary" description="Vocabulary module skeleton is ready." />;
+  return <VocabularyPageClient />;
 }
